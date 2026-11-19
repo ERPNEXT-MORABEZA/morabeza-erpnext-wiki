@@ -17,6 +17,8 @@
 
 ## Open and filter the Dayboard
 
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard) in ERPNext Desk. The Date, board type and filters are on this page.
+
 1. In ERPNext Desk, open **Commercial Control Tower → Today's Dayboard**.
 2. Set the **Date** and select **Active Sales** or **Prospect Onboarding**. These boards are separate.
 3. Check the status of generation. The source schedules daily generation at approximately **04:00**, using the ERPNext site timezone (Europe/Brussels).
@@ -42,6 +44,8 @@ The card can show a customer, pipeline, **reason count**, suggested channel, own
 
 ## Claim work and review every reason
 
+**Open directly:** [Dayboard customer work queue](https://carnivale.frappe.cloud/app/dayboard), then select the appropriate card.
+
 A Dayboard Item represents one customer on one date and may have several reasons. Open the item to review the specific pipelines, follow-up or data-quality problems before contacting anyone.
 
 - **Claim** appears for eligible items shown as without a real owner, meaning assigned to the fallback owner.
@@ -52,6 +56,8 @@ A Dayboard Item represents one customer on one date and may have several reasons
 If a task belongs to someone else, use the authorized assignment/reassignment process rather than duplicating the contact.
 
 ## Log a phone call
+
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard), select a customer card, then **Log Call**. The button does not place a phone call.
 
 1. Select **Log Call** on the customer card.
 2. Verify the contact and phone number. The dialog shows **No phone on file** when absent.
@@ -66,6 +72,8 @@ If a task belongs to someone else, use the authorized assignment/reassignment pr
 
 ## Log an email
 
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard), select the card's **Log Email** action.
+
 1. Select **Log Email**.
 2. Verify the recipient's email. If none is on file, correct the contact data first.
 3. Send the email through the organization's approved email service.
@@ -79,6 +87,8 @@ There is no automatic transactional email template/send workflow in this CRM v1.
 ![Log Email dialog](images/log-email.png)
 
 ## Select and apply an outcome
+
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard), then **Set Outcome** on the intended item.
 
 Select **Set Outcome** when you need to record the result of a commercial interaction or a justified status decision. The options come from configured **Commercial Contact Outcome** records, so your current list can differ.
 
@@ -111,6 +121,8 @@ Some outcomes require a note; destructive ones ask for confirmation. A follow-up
 **Warning:** A Dayboard Item marked **Done** or **Cancelled** is terminal in the implemented standard flow. Do not close it merely to make the counters look better.
 
 ## Handle follow-ups and duplicate warnings
+
+**Open directly:** [Overdue Followups](https://carnivale.frappe.cloud/app/query-report/Overdue%20Followups) · [Needs Review Queue](https://carnivale.frappe.cloud/app/query-report/Needs%20Review%20Queue).
 
 A follow-up can be generated from an outcome or recorded after a real contact. The system checks for matching open work, with a default duplicate warning window of **10 days** in Commercial Settings.
 
