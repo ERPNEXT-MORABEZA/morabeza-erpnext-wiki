@@ -27,8 +27,14 @@ Select a section to jump directly to it.
 - [Taskboard: administrator guide](taskboard/admin-guide.md)
 - [Taskboard: attendance and QR check-in](taskboard/attendance.md)
 - [Taskboard: reports](taskboard/reports.md)
+- [Taskboard: detailed weekly planning](taskboard/week-planning.md)
+- [Taskboard: task templates and library](taskboard/task-library.md)
+- [Taskboard: holidays and closures](taskboard/holidays-and-closures.md)
 - [Driver App: driver guide](driver-app/driver-guide.md)
 - [Driver App: administrator guide](driver-app/admin-guide.md)
+- [Driver App: all administration tabs](driver-app/admin-navigation.md)
+- [Driver App: monthly planning and routes](driver-app/planning-and-routes.md)
+- [Driver App: driver profiles and logins](driver-app/drivers-and-logins.md)
 - [Screenshot capture checklist](SCREENSHOTS.md)
 
 ## How to use these guides
@@ -51,7 +57,7 @@ Select a section to jump directly to it.
 
 These are **user manuals**, not technical installation instructions.
 
-Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The main frontend currently contains the Taskboard employee and admin pages, but no dedicated Driver App pages. Accordingly, Driver App user-facing steps are marked for live verification.
+Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The reviewed B2B frontend contains the Taskboard employee and admin pages; the Driver App admin interface is **also visible in screenshots from the deployed site**, though its source is not present in that checked branch. Driver phone steps and disabled feature areas are still marked for verification. Sanitized screenshot files are prepared but have not yet been uploaded as GitHub assets.
 
 Documentation owner: Morabeza. Please review the guides after each relevant application release, especially when screen labels, permissions or feature switches change.
 
