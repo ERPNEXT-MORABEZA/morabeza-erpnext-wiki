@@ -107,10 +107,9 @@ The week transitions from **Concept** (Draft) to **Gevalideerd** (Validated). Ch
 
 **Do not routinely reopen validated weeks**, because employees may already have worked from the published plan.
 
-> **Screenshot to add:** Show month/week navigation, a draft week, **Te plannen**, and the generate or validate action.
-> **File to upload:** `taskboard/images/admin-week-overview.png`
+**Captured example:** A draft week with month navigation, flexible tasks under **Te plannen**, and **Opslaan en valideren**. For an ungenerated week and detailed actions, see the [Weekly Planning Guide](week-planning.md).
 
-![Admin Week Overview](images/admin-week-overview.png)
+![Draft week and tasks to schedule](images/admin-week-to-plan.png)
 >
 > **Screenshot to add:** Show the calendar by day, department colors, task cards and detail panel.
 > **File to upload:** `taskboard/images/admin-week-calendar.png`
