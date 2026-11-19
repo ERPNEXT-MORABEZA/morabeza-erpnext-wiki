@@ -57,7 +57,10 @@ The board may display tasks owned by other teams for awareness. **Visible does n
 4. Employees open **Vandaag**, complete tasks, or record a reason when something cannot be done.
 5. Managers review execution and follow up on open tasks and exceptions.
 
-> **[Screenshot needed: `taskboard/images/taskboard-overview.png`]** Capture the employee **Vandaag** screen with several fictitious tasks, the date navigation and the completion summary.
+> **Screenshot to add:** Capture the employee **Vandaag** screen with several fictitious tasks, the date navigation and the completion summary.
+> **File to upload:** `taskboard/images/taskboard-overview.png`
+
+![Taskboard Overview](images/taskboard-overview.png)
 
 See [all screenshot requests](../SCREENSHOTS.md).
 
