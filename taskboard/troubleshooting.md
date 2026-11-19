@@ -14,6 +14,8 @@ Select a section to jump directly to it.
 
 ## Access and account problems
 
+**Relevant screens:** [Employee Today](https://carnivale.frappe.cloud/taskboard#vandaag) · [Operations admin](https://carnivale.frappe.cloud/taskboard/admin).
+
 **The page says I am not authorized.** Sign in with your assigned account. Ask the administrator to check that your user has the correct operational role and is linked to an active Employee record. The employee page and admin page have different access gates.
 
 **I can open the employee board but not the management page.** This is normal unless you have **Operational Team Leader** or **Operational Admin** access. Do not share an administrator account.
@@ -36,6 +38,8 @@ Select a section to jump directly to it.
 
 ## Planning and reports
 
+**Relevant screens:** [Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#weekplanning) · [Task reports](https://carnivale.frappe.cloud/taskboard/admin#rapporten) · [Task library](https://carnivale.frappe.cloud/taskboard/admin#templates).
+
 **No tasks were generated for an expected day.** Check active templates, recurrence rules, manual calendar closures and the **Niet automatisch ingepland** list. Flexible recurring tasks require placement by a planner.
 
 **I cannot edit a validated week.** Open the management page and use **Heropenen**, if authorized. Review consequences before changing an already communicated plan.
@@ -47,6 +51,8 @@ Select a section to jump directly to it.
 **Reports are unavailable on this server.** Frontend and backend versions may be out of sync. Contact the technical administrator.
 
 ## Attendance
+
+**Open directly:** [Tijdsregistratie](https://carnivale.frappe.cloud/taskboard#tijdsregistratie).
 
 **The QR scanner cannot start.** Check browser camera permission, network access and whether a photo fallback is offered.
 
