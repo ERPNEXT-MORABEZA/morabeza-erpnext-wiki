@@ -13,6 +13,8 @@ Use the Dayboard's own status and error messages as the first source of truth.
 
 ## Dayboard generation and visibility
 
+**Relevant screens:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard) · [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review).
+
 **No Dayboard appears for today.** Check the date, **Active Sales / Prospect Onboarding** board type and generation status. For ordinary cases, an authorized user can use **Generate Today → Preview / Create Missing**. Stronger modes require a manager.
 
 **Items seem missing.** The Dayboard initially hides some statuses. Check **Assigned To**, **Status**, **Priority**, **Pipeline**, and any active chips. Select **Show all** when the page reports hidden open items.
@@ -20,6 +22,8 @@ Use the Dayboard's own status and error messages as the first source of truth.
 **There is no owner.** An item may be assigned to the configured Fallback Owner, so its technical `assigned_to` is not empty. Use **No owner / Fallback** and the Manager Daily Review queue.
 
 ## Contact and WhatsApp errors
+
+**Relevant screens:** [WhatsApp Draft Review](https://carnivale.frappe.cloud/app/whatsapp-draft-review) · [WhatsApp Draft Status](https://carnivale.frappe.cloud/app/query-report/WhatsApp%20Draft%20Status).
 
 **WhatsApp Draft cannot be created.** Verify the intended contact's phone number, general WhatsApp consent **Yes**, pipeline permission and the customer's do-not-contact/closure rules. Never bypass these checks.
 
@@ -42,6 +46,8 @@ Use the Dayboard's own status and error messages as the first source of truth.
 **A Done/Cancelled item cannot be reopened by staff.** These are terminal states in the normal flow. A manager should review the audit trail and approved correction path.
 
 ## Report and configuration confusion
+
+**Relevant screens:** [Pipeline Health](https://carnivale.frappe.cloud/app/query-report/Pipeline%20Health) · [Contact Outcomes Report](https://carnivale.frappe.cloud/app/query-report/Contact%20Outcomes%20Report) · [Commercial Config](https://carnivale.frappe.cloud/app/commercial-config).
 
 **Pipeline Health does not match today's call count.** It counts membership statuses, not today's eligible contacts. Check cadence, suppressed customers and pipeline rules.
 
