@@ -16,6 +16,8 @@ This feature creates shareable product-selection pages. It is **not** a customer
 
 ## 1. Open Links and create a list
 
+**Open directly:** [B2B Links, staff-only product sharing](https://carnivale.frappe.cloud/b2b/links). This is not accessible to ordinary customer accounts.
+
 1. Sign in with an authorized staff account.
 2. Select **Links** in the B2B navigation, or open [Links](https://carnivale.frappe.cloud/b2b/links).
 3. Enter a descriptive name in **Naam van de nieuwe lijst / New list name**.
@@ -51,6 +53,8 @@ The application deliberately displays the raw share URL **only once**. It stores
 A link with prices uses the chosen link price list, not the viewing user's logged-in customer pricing. Verify the chosen tier and the actual Item Price rows before sharing.
 
 ## 4. Understand expiry and link status
+
+**Open directly:** [Links and issued-link status](https://carnivale.frappe.cloud/b2b/links), after signing in with an authorized staff role.
 
 The source's default expiry policy is:
 
