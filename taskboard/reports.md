@@ -30,10 +30,9 @@ The backend accepts date ranges of **up to 92 days**, inclusive. For a longer an
 
 ![Admin Report Filters](images/admin-report-filters.png)
 >
-> **Screenshot to add:** Capture progress metrics, department breakdown and a fictitious unresolved task.
-> **File to upload:** `taskboard/images/admin-report-summary.png`
+**Captured example:** Report totals, department progress and open tasks. These values are from the screenshot's selected historical period, **not live current performance**.
 
-![Admin Report Summary](images/admin-report-summary.png)
+![Taskboard report summary and follow-up items](images/admin-report-summary.png)
 
 ## Understanding the numbers
 
