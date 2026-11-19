@@ -21,6 +21,8 @@ This application sits inside **ERPNext Desk**. Management configuration is sprea
 
 ## Roles and responsibilities
 
+**Open directly:** [Commercial Control Tower workspace](https://carnivale.frappe.cloud/app/commercial-control-tower) · [Commercial Config](https://carnivale.frappe.cloud/app/commercial-config).
+
 | Role | Main capabilities |
 | --- | --- |
 | **Commercial Sales User** | Read and work the Dayboard, create drafts, log contacts, apply permitted outcomes, follow up |
@@ -32,6 +34,8 @@ There is **no separate implemented Sales Support or Commercial Owner role** in t
 
 ## Review the day before taking action
 
+**Open directly:** [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review) · [Needs Review Queue](https://carnivale.frappe.cloud/app/query-report/Needs%20Review%20Queue) · [Overdue Followups](https://carnivale.frappe.cloud/app/query-report/Overdue%20Followups).
+
 Start with **Manager Daily Review**, **Today's Dayboard**, **Needs Review Queue** and **Overdue Followups**. The manager review page brings together:
 
 - Items assigned to the configured **Fallback Owner**, meaning no real owner was resolved.
@@ -42,6 +46,8 @@ Start with **Manager Daily Review**, **Today's Dayboard**, **Needs Review Queue*
 Open an item to inspect the customer, reason, owner, contact and history before changing its status.
 
 ## Generate and regenerate boards
+
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard), then **Generate Today**. Use Preview for a read-only assessment.
 
 The source schedules **Active Sales** and **Prospect Onboarding** boards daily at **04:00 site time**. The Commercial Settings generation-time/timezone fields are informational; they do not reschedule the fixed job.
 
@@ -60,6 +66,8 @@ Use **Preview** or **Create Missing** for routine checks. Do not use destructive
 
 ## Configure commercial pipelines
 
+**Open directly:** [Commercial Pipeline](https://carnivale.frappe.cloud/app/commercial-pipeline) · [Commercial Pipeline Membership](https://carnivale.frappe.cloud/app/commercial-pipeline-membership).
+
 Open **Commercial Pipeline** from the Commercial Control Tower workspace or Desk search.
 
 Each pipeline has a name, type, status, enabled flag, preferred contact channel, default priority, cadence, default owner and optional day-specific owners, WhatsApp template and holiday adjustment mode.
@@ -72,6 +80,8 @@ Add or change **Commercial Pipeline Membership** only after confirming the Custo
 
 ## Resolve customer ownership and contact selection
 
+**Open directly:** [Customer records](https://carnivale.frappe.cloud/app/customer) · [Contact records](https://carnivale.frappe.cloud/app/contact) · [Pipeline membership](https://carnivale.frappe.cloud/app/commercial-pipeline-membership).
+
 The source's owner resolution evaluates a **day-specific pipeline owner**, then the **pipeline default owner**, a membership owner override, and finally **Commercial Settings.fallback_owner**.
 
 The native `Customer.customer_owner` is only a reference field for this app, not an automatic fixed account manager.
@@ -81,6 +91,8 @@ Contact selection prioritizes a specific pipeline contact override, then eligibl
 Because a fallback owner can make an item appear technically assigned, review **No owner / Fallback** rather than searching for a blank Assigned To field.
 
 ## Manage consent and reachability
+
+**Open directly:** [Customer](https://carnivale.frappe.cloud/app/customer) · [Contact](https://carnivale.frappe.cloud/app/contact) · [Data Quality Queue](https://carnivale.frappe.cloud/app/query-report/Data%20Quality%20Queue).
 
 Before automations generate eligible work, validate:
 
@@ -94,6 +106,8 @@ The source suppresses work for restricted states, including **Geneutraliseerd** 
 When onboarding new accounts, enter correct master data and permission information first, then let the normal generation process create a relevant task.
 
 ## Configure outcomes and follow-up policies
+
+**Open directly:** [Commercial Contact Outcome in Desk](https://carnivale.frappe.cloud/app/commercial-contact-outcome) · [Contact Outcomes Report](https://carnivale.frappe.cloud/app/query-report/Contact%20Outcomes%20Report).
 
 **Commercial Contact Outcome** controls the user-facing **Set Outcome** options. Settings include:
 
@@ -111,6 +125,8 @@ Restrict destructive or channel-specific outcomes according to the approved poli
 
 ## Set Commercial Settings
 
+**Open directly:** [Commercial Config workspace](https://carnivale.frappe.cloud/app/commercial-config) · [Commercial Settings record](https://carnivale.frappe.cloud/app/commercial-settings).
+
 Open **Commercial Config** or the **Commercial Settings** DocType in Desk. The source includes:
 
 - **Fallback Owner** and **Default Team**.
@@ -125,6 +141,8 @@ Open **Commercial Config** or the **Commercial Settings** DocType in Desk. The s
 Changing these affects work-generation and reporting rules. Require an explicit business owner decision, a staging test, and a recorded configuration change. In particular, a setting that looks like a scheduler time is **informational only** in the current code.
 
 ## Handle data quality and exceptions
+
+**Open directly:** [Data Quality Queue](https://carnivale.frappe.cloud/app/query-report/Data%20Quality%20Queue) · [Needs Review Queue](https://carnivale.frappe.cloud/app/query-report/Needs%20Review%20Queue) · [Duplicate Override Audit](https://carnivale.frappe.cloud/app/query-report/Duplicate%20Override%20Audit) · [WhatsApp Draft Status](https://carnivale.frappe.cloud/app/query-report/WhatsApp%20Draft%20Status).
 
 The Data Quality rules can flag missing primary contact, WhatsApp number, undecided consent, preferred language, owner, delivery day, opening hours, closures, and do-not-contact conflicts.
 
