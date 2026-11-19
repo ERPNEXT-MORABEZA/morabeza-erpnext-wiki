@@ -16,6 +16,8 @@ English-language instructions for Carnivale's **Commercial Control Tower**, a Fr
 
 ## Choose a guide
 
+**Open the actual application:** [Commercial Control Tower workspace](https://carnivale.frappe.cloud/app/commercial-control-tower) · [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard) · [WhatsApp Draft Review](https://carnivale.frappe.cloud/app/whatsapp-draft-review) · [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review) · [Commercial Config](https://carnivale.frappe.cloud/app/commercial-config). These are authenticated ERPNext Desk routes; your role determines what appears.
+
 | Your role or need | Open |
 | --- | --- |
 | Sales user handling today's customer calls and follow-ups | [Sales User Guide](sales-user-guide.md) |
@@ -34,6 +36,8 @@ The application includes separate **Active Sales** and **Prospect Onboarding** b
 It is **not** a replacement for ERPNext Sales Orders, stock management, invoicing or order confirmation. In particular, **Besteld / Done - Ordered** is currently only a commercial outcome signal. The source's **Order Verification** field is **Not integrated**, so it does not prove an ERP order exists.
 
 ## How to begin
+
+**Go directly to:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard) after signing in. For exceptions, use [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review) or [Overdue Followups](https://carnivale.frappe.cloud/app/query-report/Overdue%20Followups).
 
 1. Sign in to Carnivale ERPNext Desk with the Commercial role assigned by the administrator.
 2. Open the **Commercial Control Tower** workspace.
