@@ -42,7 +42,7 @@ The portal has NL, FR and EN language options; the screenshots happen to use Dut
 
 Customer accounts are tied to ERPNext **Customer** records. The **B2B Catalog Manager** role is deliberately restricted to selected catalog and price operations, while ERPNext sales administrators handle order review. Global B2B Settings are managed by an authorized System Manager.
 
-This wiki is **public**. Do not upload real customer identities, order references, staff email addresses, private prices or live share tokens. Screenshot references are embedded in the guides but the nine sanitized PNGs still require a separate image upload.
+This wiki is **public**. Do not upload real customer identities, order references, staff email addresses, private prices or live share tokens. All nine sanitized screenshots have been uploaded in `b2b-order-app/images/` and are embedded in context. ERPNext Desk screenshots for the administrator workflows are still to be captured.
 
 ## Current guide coverage
 
