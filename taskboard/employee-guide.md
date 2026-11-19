@@ -12,7 +12,10 @@
 
 Your account must be linked to an Employee record and have access to the operational board. Contact a manager if your credentials work but the page says you are not allowed.
 
-> **[Screenshot needed: `taskboard/images/employee-sign-in.png`]** Capture the login form with no real credentials entered.
+> **Screenshot to add:** Capture the login form with no real credentials entered.
+> **File to upload:** `taskboard/images/employee-sign-in.png`
+
+![Employee Sign In](images/employee-sign-in.png)
 
 ## 2. Understand your daily list
 
@@ -27,7 +30,10 @@ Under **Vandaag**:
 
 Use the previous and next arrows to view other dates. Select **Vandaag** to return to today. **Other dates are read-only in this view:** checkboxes and deletion are only available for today's eligible tasks.
 
-> **[Screenshot needed: `taskboard/images/employee-today.png`]** Capture an example showing department groups, eligible and read-only tasks, status labels, progress and date controls.
+> **Screenshot to add:** Capture an example showing department groups, eligible and read-only tasks, status labels, progress and date controls.
+> **File to upload:** `taskboard/images/employee-today.png`
+
+![Employee Today](images/employee-today.png)
 
 ## 3. Mark a task as completed
 
@@ -51,7 +57,10 @@ The task is recorded as **Not Done** and the reason remains visible. If you made
 
 Common reason categories include insufficient time, missing material, delivery delay, technical issue and other.
 
-> **[Screenshot needed: `taskboard/images/employee-not-done.png`]** Capture the reason selector and note field with a harmless example.
+> **Screenshot to add:** Capture the reason selector and note field with a harmless example.
+> **File to upload:** `taskboard/images/employee-not-done.png`
+
+![Employee Not Done](images/employee-not-done.png)
 
 ## 5. Move a task to another day
 
@@ -62,7 +71,10 @@ Common reason categories include insufficient time, missing material, delivery d
 
 The original task is marked as moved and linked to its new date. Only eligible completion-tracked tasks may be moved. **An employee cannot undo this move themselves.** Contact a manager if you selected the wrong date.
 
-> **[Screenshot needed: `taskboard/images/employee-move.png`]** Show the move date picker, maximum allowed date and confirmation button.
+> **Screenshot to add:** Show the move date picker, maximum allowed date and confirmation button.
+> **File to upload:** `taskboard/images/employee-move.png`
+
+![Employee Move](images/employee-move.png)
 
 ## 6. Add a task
 
@@ -89,7 +101,10 @@ A free-text personal task can be dated today, in the past or in the future. A pa
 
 You can delete your own eligible open tasks while the deletion action is available. Generated tasks and tasks owned by someone else are not freely deletable by employees.
 
-> **[Screenshot needed: `taskboard/images/employee-add-task.png`]** Capture both the task library search and own-task form, without real supplier information.
+> **Screenshot to add:** Capture both the task library search and own-task form, without real supplier information.
+> **File to upload:** `taskboard/images/employee-add-task.png`
+
+![Employee Add Task](images/employee-add-task.png)
 
 ## 7. Read task details correctly
 
