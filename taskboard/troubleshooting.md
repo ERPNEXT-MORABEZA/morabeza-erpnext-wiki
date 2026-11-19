@@ -2,6 +2,16 @@
 
 **Audience:** Employees and Taskboard administrators.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Access and account problems](#access-and-account-problems)
+- [Task action problems](#task-action-problems)
+- [Planning and reports](#planning-and-reports)
+- [Attendance](#attendance)
+- [When to escalate](#when-to-escalate)
+
 ## Access and account problems
 
 **The page says I am not authorized.** Sign in with your assigned account. Ask the administrator to check that your user has the correct operational role and is linked to an active Employee record. The employee page and admin page have different access gates.
