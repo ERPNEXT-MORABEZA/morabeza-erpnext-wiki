@@ -1,6 +1,6 @@
 # Screenshot capture checklist
 
-This repository intentionally starts with **Markdown-only screenshot placeholders**. Images will be inserted after a live UI walkthrough. Do not commit active QR codes, passwords, customer details, real payroll data, live employee information, access tokens or real vehicle registration information.
+Each guide now contains **inline Markdown image references** at the exact position where its screenshots belong. The images are not yet uploaded, so GitHub may show a missing-image icon until an approved file is added. Uploading the PNG to the listed path makes it appear automatically, without editing the guide. Do not commit active QR codes, passwords, customer details, real payroll data, live employee information, access tokens or real vehicle registration information.
 
 ## How to capture and submit
 
@@ -9,10 +9,10 @@ This repository intentionally starts with **Markdown-only screenshot placeholder
 3. Include enough of the surrounding interface to identify the screen and action.
 4. Save the file using the exact path in this checklist. Create the `images/` folders only when the first image is ready.
 5. Check for sensitive data in the screenshot, including notifications and browser tabs.
-6. Replace the visible screenshot placeholder in the relevant Markdown guide with standard Markdown, for example `![Employee task list](images/employee-today.png)`.
+6. Upload the approved PNG to the **exact filename and folder** below, for example `taskboard/images/employee-today.png`. Each guide already includes an inline image tag such as `![Employee Today](images/employee-today.png)`. **No Markdown change is needed** to display it.
 7. Record the deployed app version and capture date in the documentation update.
 
-### Taskboard screenshots
+## Taskboard screenshots
 
 | File path | Screen to capture | Include |
 | --- | --- | --- |
@@ -33,7 +33,7 @@ This repository intentionally starts with **Markdown-only screenshot placeholder
 | `taskboard/images/admin-report-filters.png` | Reports filter bar | Date range, status, export |
 | `taskboard/images/admin-report-summary.png` | Reports output | Summary and a harmless task |
 
-### Driver App screenshots
+## Driver App screenshots
 
 **Hold these until the dedicated frontend and deployed feature switches are confirmed.** A backend model is not evidence that a specific screen exists.
 
