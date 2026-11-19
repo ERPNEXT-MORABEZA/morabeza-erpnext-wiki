@@ -6,6 +6,16 @@ This guide covers the Carnivale operational task board used by warehouse, produc
 
 **Documentation status:** Employee and admin pages are verified in the current `carnivale-b2b` frontend, and task logic is verified in `carnivale_operations`. Exact deployment, visual appearance and all user permissions require a final production walkthrough. Interface buttons are currently mainly in Dutch.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Open the app](#open-the-app)
+- [Which guide do you need?](#which-guide-do-you-need)
+- [Roles at a glance](#roles-at-a-glance)
+- [Important concepts](#important-concepts)
+  - [Typical workflow](#typical-workflow)
+
 ## Open the app
 
 - **Employee Taskboard:** [Open `/taskboard`](https://carnivale.frappe.cloud/taskboard)
