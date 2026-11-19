@@ -14,11 +14,15 @@
 
 ## Login and customer account
 
+**Relevant screens:** [Sign in](https://carnivale.frappe.cloud/b2b/login) · [My account](https://carnivale.frappe.cloud/b2b/account) · [Help](https://carnivale.frappe.cloud/b2b/account/help).
+
 **I can sign in but cannot place an order.** Your login may lack a linked ERPNext Customer record. Ask Carnivale to review the Customer portal user relationship, not to grant you an internal Desk role.
 
 **The wrong customer shows in the yellow header.** Stop ordering. Sign out and ask Carnivale to verify your login-to-Customer linkage. Never place an order against another company's account.
 
 ## Searching, products and prices
+
+**Open directly:** [Catalog and filters](https://carnivale.frappe.cloud/b2b/catalog) · [Pre-order selection](https://carnivale.frappe.cloud/b2b/catalog?is_pre_order=1).
 
 **A product is missing.** Remove all filters, search by exact Item Code, then confirm it is part of the B2B assortment. If it is still missing, ask the catalog manager to review the Item's enabled state and Item Group.
 
@@ -27,6 +31,8 @@
 **A price has changed since my previous purchase.** The portal uses currently valid pricing and availability. An old Sales Order is a record of a previous transaction, not a current price quotation.
 
 ## Cart and delivery
+
+**Relevant screens:** [Cart](https://carnivale.frappe.cloud/b2b/cart) · [Delivery moment](https://carnivale.frappe.cloud/b2b/delivery).
 
 **The cart changed after I added products.** Item units, prices and eligibility may have changed. Review any **Apply changes** notice, correct the basket, and retry.
 
@@ -38,6 +44,8 @@
 
 ## Checkout and order history
 
+**Relevant screens:** [Checkout review](https://carnivale.frappe.cloud/b2b/checkout) · [Order history](https://carnivale.frappe.cloud/b2b/account/orders).
+
 **Place order is greyed out.** Tick the final review checkbox, confirm a valid delivery moment, and resolve any removed/changed cart lines first.
 
 **I clicked Place Order but do not see a confirmation.** Do not repeatedly place a new order. Refresh Order History and ask Carnivale to check the Sales Order and B2B Order Request records.
@@ -47,6 +55,8 @@
 **Repeat Order skipped products.** The catalog rechecks current prices, allowed units and availability. Inspect the preview and cart and reselect any necessary replacements.
 
 ## Favorites, lists and Links
+
+**Relevant screens:** [Customer favorites](https://carnivale.frappe.cloud/b2b/account/favorites) · [Saved order lists](https://carnivale.frappe.cloud/b2b/account/favorites#b2b-order-lists) · [Staff-only Links](https://carnivale.frappe.cloud/b2b/links).
 
 **I cannot find Links.** It is a staff-only feature for B2B Catalog Manager or System Manager, not for ordinary customers. Customers should use Favorites or Order lists.
 
