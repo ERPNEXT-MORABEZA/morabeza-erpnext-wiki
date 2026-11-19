@@ -3,6 +3,14 @@
 **Audience:** Employees, team leaders and operations administrators.  
 **Status:** Verified in employee page and attendance API source; device/browser behavior needs a live test.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Employee: clock in or out](#employee-clock-in-or-out)
+- [Administrator: display or print the location QR](#administrator-display-or-print-the-location-qr)
+- [Common issues](#common-issues)
+
 ## Employee: clock in or out
 
 1. Open [Taskboard](https://carnivale.frappe.cloud/taskboard) and sign in.
