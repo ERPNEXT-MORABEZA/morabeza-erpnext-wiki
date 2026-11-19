@@ -15,6 +15,8 @@
 
 ## Uren: time registration and corrections
 
+**Open directly if enabled:** [Chauffeurs → Uren](https://carnivale.frappe.cloud/taskboard/admin#drivers/hours).
+
 When enabled by the approved workday switch, the backend records driver start and end events, detects forgotten end registrations, and supports corrections and disputes. The registration and payroll logic is not split by **Vast** versus **Flexi** contract type.
 
 Administrators should review incorrect or missing registrations, approved leave overlaps, requests for correction and the audit trail before month close.
@@ -25,6 +27,8 @@ Administrators should review incorrect or missing registrations, approved leave 
 
 ## Payroll close and export
 
+**Open directly if enabled:** [Uren, payroll and corrections](https://carnivale.frappe.cloud/taskboard/admin#drivers/hours), subject to Payroll/HR permissions.
+
 The backend supports a closed monthly payroll period and an **SD Worx** export with versioning. A later correction after a month close creates a new version rather than silently changing an already downloaded file.
 
 Mapping must be checked and confirmed before use. The HR/Payroll role can export only if the appropriate permission switch is enabled. The organization must still validate payroll calculations and personnel data before submission.
@@ -34,6 +38,8 @@ Mapping must be checked and confirmed before use. The HR/Payroll role can export
 > ![Payroll month close pending capture](images/admin-payroll.png)
 
 ## Voertuigen: vehicle management
+
+**Open directly if enabled:** [Chauffeurs → Voertuigen](https://carnivale.frappe.cloud/taskboard/admin#drivers/vehicles).
 
 Vehicle management includes fleet profiles, route and driver preferences, assignments, temporary unavailability and service/maintenance warnings.
 
@@ -51,6 +57,8 @@ The driver phone screen and live upload behavior must be tested before adding st
 
 ## Dossiers: damage, fines and manuals
 
+**Open directly if enabled:** [Chauffeurs → Dossiers](https://carnivale.frappe.cloud/taskboard/admin#drivers/dossiers).
+
 Dossiers cover:
 
 - Damage reports, photos, statuses and restricted responsibility decisions.
@@ -65,6 +73,8 @@ Do not include real license plates, fines or medical/personnel details in screen
 > ![Driver dossiers pending capture](images/admin-dossiers.png)
 
 ## Meldingen en audit: notifications and audit trail
+
+**Open directly:** [Chauffeurs → Meldingen en audit](https://carnivale.frappe.cloud/taskboard/admin#drivers/audit).
 
 The backend includes in-app and email notification channels, optional push behavior, and an audit log of important administrative actions. An unread or failed notification must not be interpreted as proof a driver has accepted or seen a schedule.
 
