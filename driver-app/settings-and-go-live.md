@@ -14,6 +14,8 @@
 
 ## Review the general settings
 
+**Open directly:** [Chauffeurs → Instellingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings).
+
 Open **Chauffeurs** > **Instellingen**. The settings screenshot displays operational scheduling parameters such as:
 
 - **Tijdzone voor deadlines en escalaties:** Europe/Brussels in the example.
@@ -24,6 +26,8 @@ Open **Chauffeurs** > **Instellingen**. The settings screenshot displays operati
 These are organization-level parameters. The displayed dates and defaults are sample captured values, not a replacement for the current approved operating policy.
 
 ## Review privacy and retention
+
+**Open directly:** [Driver privacy settings](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings).
 
 In **Privacy en bewaartermijnen**:
 
@@ -57,6 +61,8 @@ A visible navigation tab does not override the switch status. Rollouts must be a
 
 ## Handle critical incidents
 
+**Open directly:** [Driver settings and incidents](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings) · [Meldingen en audit](https://carnivale.frappe.cloud/taskboard/admin#drivers/audit).
+
 The **Kritieke incidenten** section includes **Incident melden**. Backend behavior is designed to stop the affected function and require deliberate technical confirmation before release.
 
 Do not use an incident switch as a routine pause or as a substitute for proper operations review.
@@ -68,6 +74,8 @@ The **Noodexport** section has controls for the export type, **Van**, **Tot**, *
 Use it for authorized continuity needs only, and handle exported personal information under the organization's approved privacy policy.
 
 ## Prepare the go-live review
+
+**Open directly:** [Chauffeurs → Go-live](https://carnivale.frappe.cloud/taskboard/admin#drivers/golive).
 
 The **Go-live** tab is visible with an unresolved-items count in the screenshot, but the contents have not been captured. Backend readiness checks include:
 
