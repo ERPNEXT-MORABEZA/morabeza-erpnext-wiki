@@ -2,7 +2,7 @@
 
 The customer and administrator guides contain **inline Markdown image references immediately after the instructions they illustrate**. Each image has an explanatory caption.
 
-**Status:** Nine user-supplied screenshots were reviewed on 19 November 2026 and mapped to filenames below. A sanitized image pack is prepared separately. The actual PNGs are not yet committed to the GitHub repository, so GitHub may show a broken-image placeholder until they are uploaded.
+**Status:** All nine screenshots supplied on 19 November 2026 have been cropped, sanitized, uploaded to GitHub, and inserted inline in their respective guides. The **ERPNext Desk administrator screenshots** listed below are still outstanding.
 
 ## On this page
 
@@ -36,10 +36,10 @@ Screenshots of these **actual ERPNext Desk forms** were not supplied and are not
 - Sales Order draft, review and submission controls, using a fictitious order.
 - B2B import dry-run summary, when an approved operator can capture it.
 
-## Image upload rules
+## Image review and future uploads
 
 1. Review the screenshots and **remove** customer names, staff identities, email addresses, order identifiers, active tokens and confidential price values.
-2. Upload the PNGs to the exact folder `b2b-order-app/images/`.
+2. Any additional PNGs should be uploaded to `b2b-order-app/images/`. The original nine are already present.
 3. Keep the filenames exactly as shown in the table. No Markdown edits are needed once the image files are uploaded.
 4. Prefer a focused crop that keeps the relevant button and surrounding context visible.
 5. Check the rendered GitHub page afterward and ensure the screenshot appears beside the correct instruction.
