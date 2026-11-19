@@ -15,9 +15,15 @@
 
 **Important:** A direct visit to Taskboard is not the same as proving that you are at the workplace. The workflow requires the location QR code. Do not share a photograph of the live code or use it from outside the workplace.
 
-> **[Screenshot needed: `taskboard/images/attendance-employee.png`]** Capture the **Tijdsregistratie** page with the **Registreren** and **Mijn registraties** tabs.
+> **Screenshot to add:** Capture the **Tijdsregistratie** page with the **Registreren** and **Mijn registraties** tabs.
+> **File to upload:** `taskboard/images/attendance-employee.png`
+
+![Attendance Employee](images/attendance-employee.png)
 >
-> **[Screenshot needed: `taskboard/images/attendance-scan-result.png`]** Capture a successful example check-in result without exposing the QR token.
+> **Screenshot to add:** Capture a successful example check-in result without exposing the QR token.
+> **File to upload:** `taskboard/images/attendance-scan-result.png`
+
+![Attendance Scan Result](images/attendance-scan-result.png)
 
 ## Administrator: display or print the location QR
 
@@ -33,7 +39,10 @@ The QR card is not simply hidden with CSS. The server does not render it to unau
 
 The displayed location code remains valid until an authorized administrator rotates the code version, which invalidates earlier printed copies.
 
-> **[Screenshot needed: `taskboard/images/attendance-admin-qr-redacted.png`]** Show the admin QR download area **with the QR image itself completely obscured**. Never store an active location QR or token in this public wiki.
+> **Screenshot to add:** Show the admin QR download area **with the QR image itself completely obscured**. Never store an active location QR or token in this public wiki.
+> **File to upload:** `taskboard/images/attendance-admin-qr-redacted.png`
+
+![Attendance Admin Qr Redacted](images/attendance-admin-qr-redacted.png)
 
 ## Common issues
 
