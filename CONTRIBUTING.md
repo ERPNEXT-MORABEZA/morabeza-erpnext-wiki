@@ -10,7 +10,7 @@ All user-facing documentation in this repository is written in **English Markdow
 4. Use the real interface label in **bold**, then explain it in English if it is Dutch.
 5. Make steps executable for non-technical readers. Avoid API names and code unless needed for troubleshooting.
 6. Keep operational and security-sensitive data out of this public repository.
-7. Record screenshot needs in [SCREENSHOTS.md](SCREENSHOTS.md) and the corresponding guide.
+7. Keep screenshot requirements in [SCREENSHOTS.md](SCREENSHOTS.md) and an inline Markdown image reference directly below the relevant instructions. Upload screenshots to the exact linked paths, so no future guide edit is necessary.
 8. Confirm role/permission differences with an ordinary employee or driver account, not only an admin login.
 9. Never turn on a production feature, modify employee data or change app settings as part of documentation review.
 10. Keep the root README and subsection indexes linked to every new guide.
@@ -31,7 +31,7 @@ For Driver App, cross-check:
 
 1. Update the Markdown guide.
 2. Confirm every user step against a running build.
-3. Add sanitized screenshots if available.
+3. Add sanitized screenshots to the exact `images/` path already referenced inside each guide, if available.
 4. Check relative Markdown links.
 5. Have an operational owner approve the content.
 6. Publish with a short changelog in the commit message.
