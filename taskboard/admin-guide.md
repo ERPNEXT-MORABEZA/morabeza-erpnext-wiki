@@ -5,6 +5,8 @@
 
 Open [`/taskboard/admin`](https://carnivale.frappe.cloud/taskboard/admin). The management application has four principal sections: **Feest- en verlofdagen**, **Taakbibliotheek**, **Weekplanning** and **Rapporten**.
 
+For illustrated step-by-step instructions, use [Weekly planning](week-planning.md), [Task library](task-library.md), and [Holidays and closures](holidays-and-closures.md).
+
 ## On this page
 
 Select a section to jump directly to it.
