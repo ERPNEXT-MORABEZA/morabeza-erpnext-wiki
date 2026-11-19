@@ -22,6 +22,8 @@ Select a section to jump directly to it.
 
 ## 1. Get your driver access
 
+**Open the driver portal if enabled:** [Driver phone dashboard](https://carnivale.frappe.cloud/taskboard/chauffeur). This URL exists in the reviewed B2B release branch, but the deployed mobile interface and role access remain to be verified; it must not be treated as proof the feature is live.
+
 An administrator must first ensure that an Employee record and Driver Profile exist, that required details and availability are complete, and that your separate driver login has been approved.
 
 The profile creation process does **not** automatically create a login. If you cannot sign in, contact the administrator. Do not use a colleague's credentials.
@@ -32,6 +34,8 @@ The profile creation process does **not** automatically create a login. If you c
 ![Driver Home](images/driver-home.png)
 
 ## 2. Check your published plan
+
+**Start here:** [Driver portal](https://carnivale.frappe.cloud/taskboard/chauffeur), when the Chauffeurs mobile module is enabled. Only a published plan counts as an assignment.
 
 The backend supports a driver-specific view of **published**, non-cancelled assignments. A driver should be able to review their own scheduled work and assigned route information, not another driver's full plan.
 
