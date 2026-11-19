@@ -52,6 +52,10 @@ The displayed location code remains valid until an authorized administrator rota
 
 ![Attendance Admin Qr Redacted](images/attendance-admin-qr-redacted.png)
 
+**Captured example:** The **Mijn registraties** tab displays time entries from the previous 30 days. The example happens to have no entries and therefore does not demonstrate a successful clock-in.
+
+![Attendance history, no entries in sample](images/attendance-registrations.png)
+
 ## Common issues
 
 | Symptom | Action |
