@@ -2,6 +2,15 @@
 
 All user-facing documentation in this repository is written in **English Markdown**.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Publishing rules](#publishing-rules)
+- [Source review](#source-review)
+- [Recommended change workflow](#recommended-change-workflow)
+- [Guide status labels](#guide-status-labels)
+
 ## Publishing rules
 
 1. Document only behavior found in the current code or demonstrated in a verified environment.
