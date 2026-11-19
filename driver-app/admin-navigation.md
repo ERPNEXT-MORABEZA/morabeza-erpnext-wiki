@@ -12,6 +12,8 @@
 
 ## Open the Chauffeurs module
 
+**Direct links:** [Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan) · [Aanvragen](https://carnivale.frappe.cloud/taskboard/admin#drivers/requests) · [Vervangingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/replacements) · [Chauffeurs en logins](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers) · [Uren](https://carnivale.frappe.cloud/taskboard/admin#drivers/hours) · [Voertuigen](https://carnivale.frappe.cloud/taskboard/admin#drivers/vehicles) · [Dossiers](https://carnivale.frappe.cloud/taskboard/admin#drivers/dossiers) · [Meldingen en audit](https://carnivale.frappe.cloud/taskboard/admin#drivers/audit) · [Go-live](https://carnivale.frappe.cloud/taskboard/admin#drivers/golive) · [Instellingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings). These hash routes are defined by the reviewed B2B release branch; role permissions and feature switches still apply.
+
 Sign in to the operational administration area and choose **Chauffeurs** from the left-hand navigation. The screenshot shows the following tabs across the top:
 
 **Weekplanning**, **Aanvragen**, **Vervangingen**, **Chauffeurs en logins**, **Uren**, **Voertuigen**, **Dossiers**, **Meldingen en audit**, **Go-live**, **Instellingen**.
