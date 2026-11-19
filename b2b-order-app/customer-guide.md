@@ -25,6 +25,8 @@ This guide explains how to search products, build your cart, choose delivery, pl
 
 ## 1. Sign in, switch language and check your account
 
+**Open directly:** [B2B sign-in](https://carnivale.frappe.cloud/b2b/login) · [My account](https://carnivale.frappe.cloud/b2b/account).
+
 1. Visit [Carnivale B2B](https://carnivale.frappe.cloud/b2b).
 2. If you are not signed in, choose **Aanmelden / Log In** and enter your customer login.
 3. Choose **NL**, **FR** or **EN** in the top bar. Availability of a translation does not change product codes or prices.
@@ -34,6 +36,8 @@ This guide explains how to search products, build your cart, choose delivery, pl
 Your login must be linked to a Carnivale **Customer** account to view customer-specific ordering features. If you see **Account not linked to a customer**, ask Carnivale to connect your login. Do not borrow someone else's account.
 
 ## 2. Start from Home
+
+**Open directly:** [B2B homepage](https://carnivale.frappe.cloud/b2b).
 
 The Home page shows quick actions for searching products, repeating the latest order (if you have one), favorites and order lists (when used). It may also show a seasonal banner and product/category highlights.
 
@@ -49,6 +53,8 @@ Some homepage blocks depend on available content, saved lists, previous orders a
 ![Customer homepage with quick ordering options](images/customer-home.png)
 
 ## 3. Find products in the catalog
+
+**Open directly:** [Product catalog](https://carnivale.frappe.cloud/b2b/catalog) · [Pre-order products](https://carnivale.frappe.cloud/b2b/catalog?is_pre_order=1).
 
 Open **Bestel / Order** or [the catalog](https://carnivale.frappe.cloud/b2b/catalog). The header search can look up a product name, code or producer.
 
@@ -83,6 +89,8 @@ When available, an item may have more than one orderable unit. Check the unit be
 
 ## 4. Add items and use the cart
 
+**Open directly:** [Winkelmand, shopping cart](https://carnivale.frappe.cloud/b2b/cart).
+
 1. Select a product's **+** button to add it, or open its detail page.
 2. Use the cart icon in the header to open **Winkelmand / Cart**.
 3. Review each item and the displayed quantity. Use **−** and **+** or edit the number.
@@ -98,6 +106,8 @@ The cart can show **Apply changes** if a product price, available unit or ordera
 ![Shopping cart items and delivery action](images/customer-cart.png)
 
 ## 5. Choose your delivery moment
+
+**Open directly:** [Levermoment, delivery selection](https://carnivale.frappe.cloud/b2b/delivery). Start from your cart when placing a new order.
 
 After leaving the cart, the separate **Levermoment / Delivery moment** page presents available dates. In the supplied screenshot, a customer without a fixed delivery rule sees a provisional earliest date and a list of selectable dates.
 
@@ -115,6 +125,8 @@ Where **delivery per product** is enabled, products can be grouped into several 
 ![Choose a delivery date](images/customer-delivery.png)
 
 ## 6. Review and place the order
+
+**Open directly:** [Checkout review](https://carnivale.frappe.cloud/b2b/checkout), after selecting a valid delivery date. This link does **not** submit an order.
 
 The **Controleer je bestelling / Review your order** page summarizes the customer, selected delivery date, products, quantities and indicative total.
 
@@ -139,6 +151,8 @@ The screenshots do **not** show an online payment step. Do not assume that press
 
 ## 7. Find your order history and repeat an order
 
+**Open directly:** [Bestelhistoriek, order history](https://carnivale.frappe.cloud/b2b/account/orders).
+
 Open **Bestelhistoriek / Order History** from the top menu or through **Mijn account / My Account**.
 
 For each order, you can review the order date, planned delivery date, number of items, indicative amount excluding VAT, and current status.
@@ -155,6 +169,8 @@ For each order, you can review the order date, planned delivery date, number of 
 ![Previous orders and repeat actions](images/customer-order-history.png)
 
 ## 8. Save favorites and reusable order lists
+
+**Open directly:** [Favorieten, favorites](https://carnivale.frappe.cloud/b2b/account/favorites) · [Bestellijsten, saved order lists](https://carnivale.frappe.cloud/b2b/account/favorites#b2b-order-lists).
 
 Open **Favorieten / Favorites** from the account menu or homepage.
 
@@ -178,6 +194,8 @@ The list action adds orderable products to your cart; you still need to review q
 ![Favorite products and order lists](images/customer-favorites-lists.png)
 
 ## 9. Check your account and delivery-day details
+
+**Open directly:** [Mijn account](https://carnivale.frappe.cloud/b2b/account) · [Delivery selection](https://carnivale.frappe.cloud/b2b/delivery) · [Help and contact](https://carnivale.frappe.cloud/b2b/account/help).
 
 Open **Mijn account / My Account** to access Favorites, Cart, Order History, and your configured delivery weekdays. If fixed delivery days are missing, the portal may allow a provisional date choice and explain that Carnivale will confirm delivery.
 
