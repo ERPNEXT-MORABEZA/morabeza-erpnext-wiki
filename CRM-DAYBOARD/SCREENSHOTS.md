@@ -2,7 +2,7 @@
 
 These screenshots were supplied on **19 November 2026** and reviewed against the repository's `main` code. They illustrate the controls visible in that capture. Counts and statuses are sample values, not a live report.
 
-**Status:** Nine screenshots have been sanitized for publishing in this public wiki. The table records exact filenames expected by the Markdown guides.
+**Status:** Nine sanitized screenshots are published in this public wiki. All are stored in `CRM-DAYBOARD/images/` and embedded in the relevant Markdown guides.
 
 ## On this page
 
@@ -12,7 +12,7 @@ These screenshots were supplied on **19 November 2026** and reviewed against the
 
 ## Nine supplied images
 
-| Image to store inside the wiki | Illustrates | Referenced from |
+| Published image | Illustrates | Referenced from |
 | --- | --- | --- |
 | `CRM-DAYBOARD/images/dayboard-overview.png` | Daily queue, filters, counters, customer cards | [Sales User Guide](sales-user-guide.md) |
 | `CRM-DAYBOARD/images/outcome-picker.png` | Set Outcome choices and follow-up effects | [Sales User Guide](sales-user-guide.md) |
