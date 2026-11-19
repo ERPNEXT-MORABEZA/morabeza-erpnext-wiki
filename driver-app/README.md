@@ -17,6 +17,8 @@ Select a section to jump directly to it.
 
 ## Choose a guide
 
+**Open the application:** [Chauffeurs administration](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan) (Operational Admin access required). The reviewed release branch also defines a [driver-facing page](https://carnivale.frappe.cloud/taskboard/chauffeur); confirm it is deployed and enabled for driver accounts before relying on it.
+
 | Audience | Guide |
 | --- | --- |
 | Drivers | [Driver guide: planned workflow and features](driver-guide.md) |
