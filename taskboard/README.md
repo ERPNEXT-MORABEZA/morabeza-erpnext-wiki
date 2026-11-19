@@ -75,6 +75,6 @@ The board may display tasks owned by other teams for awareness. **Visible does n
 
 ![Taskboard Overview](images/taskboard-overview.png)
 
-See [all screenshot requests](../SCREENSHOTS.md). The uploaded 19 November screenshots have been matched to the guides. Sanitized image files are prepared for repository upload and are not yet present in GitHub.
+See [all screenshot requests](../SCREENSHOTS.md). The 17 supplied screenshots have been placed in GitHub and are linked from the relevant guides. Additional screenshot slots remain intentionally unfilled.
 
 [Back to documentation home](../README.md)
