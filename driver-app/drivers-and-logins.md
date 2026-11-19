@@ -13,6 +13,8 @@
 
 ## Review the driver overview
 
+**Open directly:** [Chauffeurs en logins, driver roster](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers).
+
 1. Go to **Chauffeurs** > **Chauffeurs en logins**.
 2. Review the driver table with **Naam**, **Personeelsnummer**, **Werknemerstype**, **Beschikbaarheid**, **Inzetbaarheid**, **Status** and **Acties**.
 3. Interpret weekday labels as the driver's current availability pattern, not necessarily a confirmed assigned shift.
@@ -27,6 +29,8 @@ The screenshot shows both **Flexi** and **Vast** employee types and examples of 
 
 ## Add or edit a driver
 
+**Open directly:** [Driver administration](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers), then choose **Chauffeur toevoegen** or **Bewerken**.
+
 Select **Chauffeur toevoegen** on the driver list.
 
 The backend supports adding an existing Employee or creating a new Employee and Driver Profile in a controlled transaction. Creating a profile **does not** create a login or supply missing availability automatically. Check required personnel number, contract type, dates, contact details and an availability version before planning.
@@ -38,6 +42,8 @@ The detailed new-driver form itself was not provided in these screenshots. A scr
 > ![Add driver form pending capture](images/admin-add-driver.png)
 
 ## Maintain route knowledge
+
+**Open directly:** [Route knowledge matrix under Chauffeurs en logins](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers).
 
 The **Routekennis** section displays a driver-by-route matrix. The screenshot shows examples of:
 
@@ -57,6 +63,8 @@ The screenshot expressly states that **a change affects plans generated from now
 > ![Driver route familiarity and preferences](images/admin-route-knowledge.png)
 
 ## Review and create driver logins
+
+**Open directly:** [Driver login management](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers).
 
 In **Logins van chauffeurs**:
 
