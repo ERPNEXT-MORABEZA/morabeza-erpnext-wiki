@@ -28,6 +28,9 @@ Access requires a valid account, the relevant operational role and a linked Empl
 | I want to... | Guide |
 | --- | --- |
 | See and complete my daily work | [Employee guide](employee-guide.md) |
+| Generate, schedule and validate a week | [Detailed weekly planning guide](week-planning.md) |
+| Create, edit and manage templates | [Task library guide](task-library.md) |
+| Configure holidays and closures | [Holidays and closures](holidays-and-closures.md) |
 | Add a personal task or one from the library | [Employee guide](employee-guide.md#add-a-task) |
 | Report an unfinished task or move a task | [Employee guide](employee-guide.md#report-a-task-as-not-done) |
 | Generate and validate weekly plans | [Administrator guide](admin-guide.md) |
@@ -72,6 +75,6 @@ The board may display tasks owned by other teams for awareness. **Visible does n
 
 ![Taskboard Overview](images/taskboard-overview.png)
 
-See [all screenshot requests](../SCREENSHOTS.md).
+See [all screenshot requests](../SCREENSHOTS.md). The uploaded 19 November screenshots have been matched to the guides. Sanitized image files are prepared for repository upload and are not yet present in GitHub.
 
 [Back to documentation home](../README.md)
