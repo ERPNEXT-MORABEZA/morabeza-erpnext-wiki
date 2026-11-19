@@ -15,6 +15,8 @@ Select a section to jump directly to it.
 
 ## Open the reports
 
+**Open directly:** [Operations task reports, Rapporten](https://carnivale.frappe.cloud/taskboard/admin#rapporten).
+
 1. Go to [Taskboard Admin](https://carnivale.frappe.cloud/taskboard/admin).
 2. Open **Rapporten** (Reports).
 3. Select **Vanaf** (From) and **Tot en met** (Through).
