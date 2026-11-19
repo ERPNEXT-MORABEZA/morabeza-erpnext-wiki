@@ -20,6 +20,7 @@ Select a section to jump directly to it.
 | --- | --- | --- |
 | **Taskboard** | Employees, team leaders, operations administrators | [Taskboard guides](taskboard/README.md) |
 | **Driver App** | Drivers, dispatch / operations administrators, HR | [Driver App guides](driver-app/README.md) |
+| **B2B Order App** | Professional customers, sales and catalog administrators | [B2B ordering guides](b2b-order-app/README.md) |
 
 ## Quick links
 
@@ -35,6 +36,10 @@ Select a section to jump directly to it.
 - [Driver App: all administration tabs](driver-app/admin-navigation.md)
 - [Driver App: monthly planning and routes](driver-app/planning-and-routes.md)
 - [Driver App: driver profiles and logins](driver-app/drivers-and-logins.md)
+- [B2B Order App: customer user guide](b2b-order-app/customer-guide.md)
+- [B2B Order App: administrator guide](b2b-order-app/admin-guide.md)
+- [B2B Order App: staff shared-product links](b2b-order-app/shared-links-guide.md)
+- [B2B Order App: screenshots](b2b-order-app/SCREENSHOTS.md)
 - [Screenshot capture checklist](SCREENSHOTS.md)
 
 ## How to use these guides
