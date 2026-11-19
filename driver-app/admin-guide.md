@@ -44,9 +44,15 @@ After profile creation:
 3. Use the reviewed login-creation action separately.
 4. Test the newly created driver account with driver-only access.
 
-> **[Screenshot needed: `driver-app/images/admin-add-driver.png`]** Show the actual add-driver workflow with a fictitious employee and the incomplete-profile indicator.
+> **Screenshot to add:** Show the actual add-driver workflow with a fictitious employee and the incomplete-profile indicator.
+> **File to upload:** `driver-app/images/admin-add-driver.png`
+
+![Admin Add Driver](images/admin-add-driver.png)
 >
-> **[Screenshot needed: `driver-app/images/admin-login-review.png`]** Show the admin login preview and the separate creation action, with no real account details.
+> **Screenshot to add:** Show the admin login preview and the separate creation action, with no real account details.
+> **File to upload:** `driver-app/images/admin-login-review.png`
+
+![Admin Login Review](images/admin-login-review.png)
 
 ## 4. Prepare the monthly driver plan
 
@@ -67,7 +73,10 @@ Recommended process:
 5. Publish only after operational approval.
 6. If appropriate, convert an approved shadow plan to a published plan.
 
-> **[Screenshot needed: `driver-app/images/admin-month-plan.png`]** Show a fictional monthly driver plan with conflicts and publication state clearly visible.
+> **Screenshot to add:** Show a fictional monthly driver plan with conflicts and publication state clearly visible.
+> **File to upload:** `driver-app/images/admin-month-plan.png`
+
+![Admin Month Plan](images/admin-month-plan.png)
 
 ## 5. Handle leave, availability and replacements
 
@@ -75,9 +84,15 @@ Availability changes and leave requests require a management decision. A replace
 
 Replacement calls can be offered to eligible drivers. The documented job handles first valid acceptance, reminders and escalation when no one accepts. Check the final assignment and notification status instead of relying on a phone call alone.
 
-> **[Screenshot needed: `driver-app/images/admin-requests.png`]** Show the admin pending-request queue and an approval/rejection decision.
+> **Screenshot to add:** Show the admin pending-request queue and an approval/rejection decision.
+> **File to upload:** `driver-app/images/admin-requests.png`
+
+![Admin Requests](images/admin-requests.png)
 >
-> **[Screenshot needed: `driver-app/images/admin-replacements.png`]** Show an active fictional replacement call and response trail.
+> **Screenshot to add:** Show an active fictional replacement call and response trail.
+> **File to upload:** `driver-app/images/admin-replacements.png`
+
+![Admin Replacements](images/admin-replacements.png)
 
 ## 6. Work hours and payroll
 
@@ -91,9 +106,15 @@ When workday tracking is enabled, the backend records working days for both fixe
 
 The application does not replace the employer's payroll validation responsibilities.
 
-> **[Screenshot needed: `driver-app/images/admin-hours.png`]** Show the workday exception/approval view with test records.
+> **Screenshot to add:** Show the workday exception/approval view with test records.
+> **File to upload:** `driver-app/images/admin-hours.png`
+
+![Admin Hours](images/admin-hours.png)
 >
-> **[Screenshot needed: `driver-app/images/admin-payroll.png`]** Show month close and export version, with compensation and personal data hidden.
+> **Screenshot to add:** Show month close and export version, with compensation and personal data hidden.
+> **File to upload:** `driver-app/images/admin-payroll.png`
+
+![Admin Payroll](images/admin-payroll.png)
 
 ## 7. Manage vehicles
 
@@ -101,7 +122,10 @@ The backend supports vehicle setup, assignment, service and maintenance checks, 
 
 Before making a vehicle available, confirm its approved baseline and service data. A vehicle lacking the required baseline must not be allocated by the normal flow. Resolve unavailability and maintenance warnings before publication or dispatch.
 
-> **[Screenshot needed: `driver-app/images/admin-vehicles.png`]** Show test vehicle readiness, maintenance warnings and assignment.
+> **Screenshot to add:** Show test vehicle readiness, maintenance warnings and assignment.
+> **File to upload:** `driver-app/images/admin-vehicles.png`
+
+![Admin Vehicles](images/admin-vehicles.png)
 
 ## 8. Manage driver dossiers
 
@@ -109,7 +133,10 @@ Administrators can review damage reports, fines and disputes, publish versions o
 
 Do not disclose a tentative fine or internal responsibility assessment to drivers before the workflow permits it. Do not upload sensitive dossier records to this public documentation repository.
 
-> **[Screenshot needed: `driver-app/images/admin-dossiers.png`]** Show test dossier sections and a manual acknowledgment overview.
+> **Screenshot to add:** Show test dossier sections and a manual acknowledgment overview.
+> **File to upload:** `driver-app/images/admin-dossiers.png`
+
+![Admin Dossiers](images/admin-dossiers.png)
 
 ## 9. Incident, privacy and emergency operations
 
@@ -123,7 +150,10 @@ The backend includes:
 
 Changes to retention, payroll access and incident stops must be reviewed as operational controls, not treated as ordinary UI preferences.
 
-> **[Screenshot needed: `driver-app/images/admin-readiness.png`]** Show a fictitious go-live checklist and unresolved items. Hide all internal contacts and private details.
+> **Screenshot to add:** Show a fictitious go-live checklist and unresolved items. Hide all internal contacts and private details.
+> **File to upload:** `driver-app/images/admin-readiness.png`
+
+![Admin Readiness](images/admin-readiness.png)
 
 ## 10. Known limits and deferred functionality
 
