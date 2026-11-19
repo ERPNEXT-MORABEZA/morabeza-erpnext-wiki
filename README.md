@@ -10,6 +10,10 @@ Select a section to jump directly to it.
 
 - [Choose your application](#choose-your-application)
 - [Quick links](#quick-links)
+  - [Taskboard](#taskboard)
+  - [Driver App](#driver-app)
+  - [B2B Order App](#b2b-order-app)
+  - [Shared resources](#shared-resources)
 - [How to use these guides](#how-to-use-these-guides)
 - [Documentation conventions](#documentation-conventions)
 - [Source and maintenance](#source-and-maintenance)
@@ -24,22 +28,33 @@ Select a section to jump directly to it.
 
 ## Quick links
 
-- [Taskboard: employee guide](taskboard/employee-guide.md)
-- [Taskboard: administrator guide](taskboard/admin-guide.md)
-- [Taskboard: attendance and QR check-in](taskboard/attendance.md)
-- [Taskboard: reports](taskboard/reports.md)
-- [Taskboard: detailed weekly planning](taskboard/week-planning.md)
-- [Taskboard: task templates and library](taskboard/task-library.md)
-- [Taskboard: holidays and closures](taskboard/holidays-and-closures.md)
-- [Driver App: driver guide](driver-app/driver-guide.md)
-- [Driver App: administrator guide](driver-app/admin-guide.md)
-- [Driver App: all administration tabs](driver-app/admin-navigation.md)
-- [Driver App: monthly planning and routes](driver-app/planning-and-routes.md)
-- [Driver App: driver profiles and logins](driver-app/drivers-and-logins.md)
-- [B2B Order App: customer user guide](b2b-order-app/customer-guide.md)
-- [B2B Order App: administrator guide](b2b-order-app/admin-guide.md)
-- [B2B Order App: staff shared-product links](b2b-order-app/shared-links-guide.md)
-- [B2B Order App: screenshots](b2b-order-app/SCREENSHOTS.md)
+### Taskboard
+
+- [Employee guide](taskboard/employee-guide.md)
+- [Administrator guide](taskboard/admin-guide.md)
+- [Attendance and QR check-in](taskboard/attendance.md)
+- [Reports](taskboard/reports.md)
+- [Detailed weekly planning](taskboard/week-planning.md)
+- [Task templates and library](taskboard/task-library.md)
+- [Holidays and closures](taskboard/holidays-and-closures.md)
+
+### Driver App
+
+- [Driver guide](driver-app/driver-guide.md)
+- [Administrator guide](driver-app/admin-guide.md)
+- [All administration tabs](driver-app/admin-navigation.md)
+- [Monthly planning and routes](driver-app/planning-and-routes.md)
+- [Driver profiles and logins](driver-app/drivers-and-logins.md)
+
+### B2B Order App
+
+- [Customer user guide](b2b-order-app/customer-guide.md)
+- [Administrator guide](b2b-order-app/admin-guide.md)
+- [Staff shared-product links](b2b-order-app/shared-links-guide.md)
+- [Screenshots](b2b-order-app/SCREENSHOTS.md)
+
+### Shared resources
+
 - [Screenshot capture checklist](SCREENSHOTS.md)
 
 ## How to use these guides
