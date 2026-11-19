@@ -1,7 +1,7 @@
 # Driver App administrator guide
 
 **Audience:** Operational Admin, planner and HR/Payroll where explicitly permitted.  
-**Status:** Backend and technical specification reviewed; the dedicated management frontend and actual enabled modules are **not verified on the B2B main branch**. Treat all click paths in the technical specification as provisional.
+**Status:** Deployed **Chauffeurs** admin navigation and several panels are now verified by user-supplied screenshots (19 November 2026). The specific source branch for those screens and the detailed UI of other tabs remain unverified. Some functions were switched off in the captured environment.
 
 ## On this page
 
@@ -19,9 +19,11 @@ Select a section to jump directly to it.
 - [10. Known limits and deferred functionality](#10-known-limits-and-deferred-functionality)
 - [Release gate before publishing end-user instructions](#release-gate-before-publishing-end-user-instructions)
 
+For screen-grounded instructions, use [All admin tabs](admin-navigation.md), [Driver profiles and logins](drivers-and-logins.md), [Planning and routes](planning-and-routes.md), [Requests and replacements](requests-and-replacements.md), [Hours, vehicles and dossiers](hours-vehicles-dossiers.md), and [Settings/go-live](settings-and-go-live.md).
+
 ## 1. What an administrator manages
 
-The backend has separate functions for driver profiles, availability, month plans, replacements, hours, vehicles, damages, fines, manuals, incident handling and exports. Rights are enforced server-side.
+The deployed admin screenshots show the actual **Chauffeurs** tab navigation. The backend has separate functions for driver profiles, availability, month plans, replacements, hours, vehicles, damages, fines, manuals, incident handling and exports. Rights are enforced server-side.
 
 **Roles**
 
@@ -43,11 +45,11 @@ The documented **Geofood Driver Settings** include separate feature switches:
 | `offline_write` | Offline write queue, off by default |
 | `payroll_export_hr` | Allow HR/Payroll to download exports, off by default |
 
-**Do not enable everything together.** The production rollout requires a backup, compatible frontend/backend deployment, configuration of privacy settings and a staged acceptance process. No settings or switches are changed by this documentation.
+**Do not enable everything together.** The supplied settings capture shows **Uren**, **Voertuigen**, **Dossiers** and **Pushmeldingen** switched off, while offline read-only copy is on. This is a dated snapshot, not a current configuration guarantee. The production rollout requires a backup, compatible frontend/backend deployment, privacy settings and staged acceptance. No settings or switches are changed by this documentation.
 
 ## 3. Create or complete driver profiles
 
-The backend specification describes an administrator **Add a driver** flow, including **New employee**.
+The deployed driver list shows **Chauffeur toevoegen**, **Bewerken**, **Archiveren**, availability and readiness. The backend specification additionally describes a new-Employee-and-driver creation flow, which needs a detailed screenshot.
 
 A new employee/profile creation requires validated personnel and contract details. The application refuses duplicate identifiers and duplicate employee identities. It does **not** automatically create a User/login or supply missing availability.
 
