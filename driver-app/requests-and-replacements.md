@@ -13,6 +13,8 @@
 
 ## What goes into Aanvragen
 
+**Open directly:** [Chauffeurs → Aanvragen](https://carnivale.frappe.cloud/taskboard/admin#drivers/requests).
+
 The Driver App supports driver availability change requests and leave requests. The admin reviews the request and decides whether to approve it. A submitted change does **not** automatically override the existing published driver schedule.
 
 Planners should verify the requested date, affected driver, current plan and route staffing before making a decision. Employees should verify that the request status changes to approved rather than assuming the submission was accepted.
@@ -29,6 +31,8 @@ Planners should verify the requested date, affected driver, current plan and rou
 The source describes changes as effective for future planning only after approval, not as retroactive changes to completed work.
 
 ## How replacements are offered
+
+**Open directly:** [Chauffeurs → Vervangingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/replacements).
 
 The backend has a replacement-call workflow. Eligible drivers can receive an offer containing the shift's **date, route, start and expected duration**. The receiving driver must not see private details about the colleague requesting replacement.
 
