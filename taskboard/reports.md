@@ -15,9 +15,15 @@
 
 The backend accepts date ranges of **up to 92 days**, inclusive. For a longer analysis, export separate periods.
 
-> **[Screenshot needed: `taskboard/images/admin-report-filters.png`]** Capture date range, department, status and export action.
+> **Screenshot to add:** Capture date range, department, status and export action.
+> **File to upload:** `taskboard/images/admin-report-filters.png`
+
+![Admin Report Filters](images/admin-report-filters.png)
 >
-> **[Screenshot needed: `taskboard/images/admin-report-summary.png`]** Capture progress metrics, department breakdown and a fictitious unresolved task.
+> **Screenshot to add:** Capture progress metrics, department breakdown and a fictitious unresolved task.
+> **File to upload:** `taskboard/images/admin-report-summary.png`
+
+![Admin Report Summary](images/admin-report-summary.png)
 
 ## Understanding the numbers
 
