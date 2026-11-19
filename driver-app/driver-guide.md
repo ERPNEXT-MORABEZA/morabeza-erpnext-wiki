@@ -5,6 +5,21 @@
 
 This page explains what the Driver App is intended to let a driver do. Specific button labels, menu positions and phone URLs must be added after a controlled test.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [1. Get your driver access](#1-get-your-driver-access)
+- [2. Check your published plan](#2-check-your-published-plan)
+- [3. Report availability or request leave](#3-report-availability-or-request-leave)
+- [4. Respond to a replacement request](#4-respond-to-a-replacement-request)
+- [5. Register your workday](#5-register-your-workday)
+- [6. Check the vehicle and record the odometer](#6-check-the-vehicle-and-record-the-odometer)
+- [7. Report damage or an incident](#7-report-damage-or-an-incident)
+- [8. View your dossier and required reading](#8-view-your-dossier-and-required-reading)
+- [9. Notifications](#9-notifications)
+- [Before using this as a live guide](#before-using-this-as-a-live-guide)
+
 ## 1. Get your driver access
 
 An administrator must first ensure that an Employee record and Driver Profile exist, that required details and availability are complete, and that your separate driver login has been approved.
