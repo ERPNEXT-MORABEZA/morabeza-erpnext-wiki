@@ -7,6 +7,7 @@ Each guide now contains **inline Markdown image references** at the exact positi
 Select a section to jump directly to it.
 
 - [How to capture and submit](#how-to-capture-and-submit)
+- [Captures supplied on 19 November 2026](#captures-supplied-on-19-november-2026)
 - [Taskboard screenshots](#taskboard-screenshots)
 - [Driver App screenshots](#driver-app-screenshots)
 - [Do not capture](#do-not-capture)
@@ -63,7 +64,7 @@ The screenshot package is organized so that extracting its `taskboard/images` an
 | `taskboard/images/admin-holidays.png` | Admin calendar | Year, official sync, sample closure |
 | `taskboard/images/admin-library.png` | Task templates | Filters, search, edit/deactivate |
 | `taskboard/images/admin-template-editor.png` | Task template form | Planning type, flags, assignments |
-| `taskboard/images/admin-week-overview.png` | Weekplanning | Week picker, draft status, To Plan |
+| `taskboard/images/admin-week-to-plan.png` | Weekplanning | Week picker, draft status, To Plan |
 | `taskboard/images/admin-week-calendar.png` | Week calendar | Department cards, details |
 | `taskboard/images/admin-report-filters.png` | Reports filter bar | Date range, status, export |
 | `taskboard/images/admin-report-summary.png` | Reports output | Summary and a harmless task |
