@@ -2,9 +2,9 @@
 
 **Geofood Drivers: planning, availability, work hours and fleet management**
 
-The Driver App is designed to connect driver planning and administration with the operational Taskboard.
+The Driver App connects driver planning and administration with the operational Taskboard. The deployed admin interface is visible in user-provided screenshots; actual driver phone screens remain to be captured.
 
-> **Important availability notice (19 November 2026):** The operations backend includes substantial Driver App functionality and automated tests. However, dedicated Driver App screens described in the technical specification were **not found in the current `carnivale-b2b` main branch**. Furthermore, the backend has feature switches that default to off. These documents explain intended and source-backed behavior, **not a confirmed live user interface**. Do not distribute these as finalized phone instructions until the screens, switches and permissions have been checked in staging or production.
+> **Updated verification notice (19 November 2026):** The uploaded screenshots **confirm a working deployed Chauffeurs administration interface** with tabs for planning, requests, replacements, drivers/logins, hours, vehicles, dossiers, notifications/audit, go-live and settings. Earlier text claiming no driver admin interface could be verified was incomplete. The dedicated screens are still **not found in the reviewed `carnivale-b2b` main branch**, so their source branch/deployment needs reconciliation. A driver-facing phone interface has **not** been shown. Several feature switches were off in the captured settings screen, so a visible tab is not proof its operations are enabled.
 
 ## On this page
 
@@ -21,6 +21,12 @@ Select a section to jump directly to it.
 | --- | --- |
 | Drivers | [Driver guide: planned workflow and features](driver-guide.md) |
 | Administrators, operations planners and HR | [Driver App administrator guide](admin-guide.md) |
+| Admin navigation and all 10 tabs | [Admin feature reference](admin-navigation.md) |
+| Driver profiles, route knowledge, logins | [Drivers and logins](drivers-and-logins.md) |
+| Monthly planning and route patterns | [Planning and routes](planning-and-routes.md) |
+| Leave, availability and replacement calls | [Requests and replacements](requests-and-replacements.md) |
+| Hours, payroll, vehicles, dossiers | [Hours, vehicles and dossiers](hours-vehicles-dossiers.md) |
+| Settings, privacy, incidents, go-live | [Settings and go-live](settings-and-go-live.md) |
 | Screenshot and verification needs | [Screenshot checklist](../SCREENSHOTS.md) |
 
 ## Feature areas represented in the backend
