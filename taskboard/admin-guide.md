@@ -24,6 +24,8 @@ Select a section to jump directly to it.
 
 ## 1. Prepare the operational calendar
 
+**Open directly:** [Feest- en verlofdagen, holidays and closures](https://carnivale.frappe.cloud/taskboard/admin#holidays).
+
 Open **Feest- en verlofdagen** (Holidays and leave days).
 
 1. Select the correct year under **Jaar** and click **Tonen**.
@@ -42,6 +44,8 @@ Official holidays are imported as system-sourced entries. Manually added substit
 ![Admin Holidays](images/admin-holidays.png)
 
 ## 2. Manage the task library
+
+**Open directly:** [Taakbibliotheek, task templates](https://carnivale.frappe.cloud/taskboard/admin#templates). Advanced recurrence rules can be managed in [Operational Task Template in ERPNext Desk](https://carnivale.frappe.cloud/app/operational-task-template), if your role permits.
 
 Open **Taakbibliotheek** (Task Library).
 
@@ -91,6 +95,8 @@ The management form links to **Edit recurrence rules in Desk**. Recurrence rules
 
 ## 3. Generate and validate a week
 
+**Open directly:** [Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#weekplanning).
+
 Open **Weekplanning**.
 
 1. Navigate by month cards, previous/next week arrows or the date picker.
@@ -117,6 +123,8 @@ The week transitions from **Concept** (Draft) to **Gevalideerd** (Validated). Ch
 ![Admin Week Calendar](images/admin-week-calendar.png)
 
 ## 4. Assign, move and correct tasks
+
+**Open directly:** [Weekly task calendar](https://carnivale.frappe.cloud/taskboard/admin#weekplanning), then select a task card.
 
 In a draft week, click a task card to open details.
 
@@ -145,6 +153,8 @@ The employee board is broader than the management page.
 Actual server role checks remain authoritative. A manager's ability to complete another team's task is subject to the task's status and day.
 
 ## 6. Monitor execution
+
+**Open directly:** [Rapporten, task execution reports](https://carnivale.frappe.cloud/taskboard/admin#rapporten).
 
 Go to **Rapporten** and select a date range, department, status and, for Operational Admins, employee. Export the filtered results using **Exporteer selectie**.
 
