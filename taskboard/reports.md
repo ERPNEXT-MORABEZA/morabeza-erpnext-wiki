@@ -3,6 +3,16 @@
 **Audience:** Operational Team Leader and Operational Admin.  
 **Status:** Report screen and backend are verified in source. Requires deployment-specific confirmation.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Open the reports](#open-the-reports)
+- [Understanding the numbers](#understanding-the-numbers)
+- [Who can see what?](#who-can-see-what)
+- [What to investigate](#what-to-investigate)
+- [If reports are missing](#if-reports-are-missing)
+
 ## Open the reports
 
 1. Go to [Taskboard Admin](https://carnivale.frappe.cloud/taskboard/admin).
