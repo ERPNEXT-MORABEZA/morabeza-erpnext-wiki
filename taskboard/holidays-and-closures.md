@@ -12,6 +12,8 @@
 
 ## Review the holiday calendar
 
+**Open directly:** [Feest- en verlofdagen in operations admin](https://carnivale.frappe.cloud/taskboard/admin#holidays).
+
 1. Open **Feest- en verlofdagen**.
 2. Choose **Jaar** (Year) and select **Tonen**.
 3. Review **Datum**, **Omschrijving**, **Type**, **Regio**, **Bron** and **Actie** in the calendar list.
@@ -30,6 +32,8 @@ Select **Feestdagen synchroniseren** to fetch public holiday entries for the sel
 Check the correct year and review the resulting list before scheduling future weeks.
 
 ## Add a manual calendar day
+
+**Open directly:** [Holiday calendar](https://carnivale.frappe.cloud/taskboard/admin#holidays), then choose **+ Kalenderdag**.
 
 1. Select **+ Kalenderdag**.
 2. Enter the **Date** and **Type**.
