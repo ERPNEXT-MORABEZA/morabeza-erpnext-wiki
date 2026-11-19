@@ -13,6 +13,8 @@
 
 ## Find a task template
 
+**Open directly:** [Taakbibliotheek, task library](https://carnivale.frappe.cloud/taskboard/admin#templates).
+
 1. Open **Taakbibliotheek** on the administration page.
 2. Select a filter chip such as **Warehouse**, **Productie**, **Onderhoud**, **Logistiek**, **Operations**, **Kwaliteit & HACCP**, **Ad Hoc taken** or **Inactief**.
 3. Enter a phrase in **Zoek binnen de selectie** (Search within selection).
@@ -70,6 +72,8 @@ The image illustrates where these controls are located. **Checked items reflect 
 > ![Task template advanced flags and assignees](images/admin-template-fields.png)
 
 ## Manage recurrence and deactivate old templates
+
+**Open directly:** [Task library](https://carnivale.frappe.cloud/taskboard/admin#templates) · [ERPNext Desk: Operational Task Template](https://carnivale.frappe.cloud/app/operational-task-template) for recurrence configuration, subject to permission.
 
 The web editor states that recurrence rules are **not editable here yet** and links to **Edit recurrence rules in Desk**. Use the authorized ERPNext Desk to modify recurrence safely.
 
