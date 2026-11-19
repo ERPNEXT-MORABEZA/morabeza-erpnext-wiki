@@ -57,7 +57,7 @@ Select a section to jump directly to it.
 
 These are **user manuals**, not technical installation instructions.
 
-Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The reviewed B2B frontend contains the Taskboard employee and admin pages; the Driver App admin interface is **also visible in screenshots from the deployed site**, though its source is not present in that checked branch. Driver phone steps and disabled feature areas are still marked for verification. Sanitized screenshot files are prepared but have not yet been uploaded as GitHub assets.
+Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The reviewed B2B frontend contains the Taskboard employee and admin pages; the Driver App admin interface is **also visible in screenshots from the deployed site**, though its source is not present in that checked branch. Driver phone steps and disabled feature areas are still marked for verification. Seventeen supplied screenshots have now been uploaded to the matching `taskboard/images/` and `driver-app/images/` directories. Other inline image slots intentionally remain pending until their screenshots are captured.
 
 Documentation owner: Morabeza. Please review the guides after each relevant application release, especially when screen labels, permissions or feature switches change.
 
