@@ -19,7 +19,10 @@ Official holidays are imported as system-sourced entries. Manually added substit
 
 **Before generating a week, check the calendar.** Calendar mistakes can suppress otherwise expected tasks.
 
-> **[Screenshot needed: `taskboard/images/admin-holidays.png`]** Show the year filter, sync action, and a sample manual closure day.
+> **Screenshot to add:** Show the year filter, sync action, and a sample manual closure day.
+> **File to upload:** `taskboard/images/admin-holidays.png`
+
+![Admin Holidays](images/admin-holidays.png)
 
 ## 2. Manage the task library
 
@@ -59,9 +62,15 @@ Open **Taakbibliotheek** (Task Library).
 
 The management form links to **Edit recurrence rules in Desk**. Recurrence rules are not fully edited in this web form, so maintain those in the authorized ERPNext Desk when necessary.
 
-> **[Screenshot needed: `taskboard/images/admin-library.png`]** Capture search, filters, an active template and the edit action.
+> **Screenshot to add:** Capture search, filters, an active template and the edit action.
+> **File to upload:** `taskboard/images/admin-library.png`
+
+![Admin Library](images/admin-library.png)
 >
-> **[Screenshot needed: `taskboard/images/admin-template-editor.png`]** Capture the template form, planning type, assignment fields and recurrence link.
+> **Screenshot to add:** Capture the template form, planning type, assignment fields and recurrence link.
+> **File to upload:** `taskboard/images/admin-template-editor.png`
+
+![Admin Template Editor](images/admin-template-editor.png)
 
 ## 3. Generate and validate a week
 
@@ -81,9 +90,15 @@ The week transitions from **Concept** (Draft) to **Gevalideerd** (Validated). Ch
 
 **Do not routinely reopen validated weeks**, because employees may already have worked from the published plan.
 
-> **[Screenshot needed: `taskboard/images/admin-week-overview.png`]** Show month/week navigation, a draft week, **Te plannen**, and the generate or validate action.
+> **Screenshot to add:** Show month/week navigation, a draft week, **Te plannen**, and the generate or validate action.
+> **File to upload:** `taskboard/images/admin-week-overview.png`
+
+![Admin Week Overview](images/admin-week-overview.png)
 >
-> **[Screenshot needed: `taskboard/images/admin-week-calendar.png`]** Show the calendar by day, department colors, task cards and detail panel.
+> **Screenshot to add:** Show the calendar by day, department colors, task cards and detail panel.
+> **File to upload:** `taskboard/images/admin-week-calendar.png`
+
+![Admin Week Calendar](images/admin-week-calendar.png)
 
 ## 4. Assign, move and correct tasks
 
