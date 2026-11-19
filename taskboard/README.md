@@ -18,6 +18,8 @@ Select a section to jump directly to it.
 
 ## Open the app
 
+**Direct shortcuts:** [Today's tasks](https://carnivale.frappe.cloud/taskboard#vandaag) · [Attendance](https://carnivale.frappe.cloud/taskboard#tijdsregistratie) · [Weekly planning](https://carnivale.frappe.cloud/taskboard/admin#weekplanning) · [Task library](https://carnivale.frappe.cloud/taskboard/admin#templates) · [Holidays](https://carnivale.frappe.cloud/taskboard/admin#holidays) · [Reports](https://carnivale.frappe.cloud/taskboard/admin#rapporten) · [Drivers administration](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan). Access depends on your assigned role.
+
 - **Employee Taskboard:** [Open `/taskboard`](https://carnivale.frappe.cloud/taskboard)
 - **Management and planning:** [Open `/taskboard/admin`](https://carnivale.frappe.cloud/taskboard/admin)
 
