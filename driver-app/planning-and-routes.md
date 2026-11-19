@@ -14,6 +14,8 @@
 
 ## Select a planning month
 
+**Open directly:** [Chauffeurs → Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan).
+
 1. Open **Chauffeurs** and select **Weekplanning**.
 2. Use the month navigation arrows or **Vandaag**.
 3. Inspect the weekly status cards before generating a plan.
@@ -48,6 +50,8 @@ The captured **Dashboard** includes:
 Review each count before publication. A zero may mean no plan was generated yet, not that staffing is adequate.
 
 ## Maintain recurring route patterns
+
+**Open directly:** [Driver planning and route patterns](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan).
 
 The **Routepatronen** table allows recurring weekday definitions. The screenshot shows:
 
