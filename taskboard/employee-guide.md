@@ -21,6 +21,8 @@ Select a section to jump directly to it.
 
 ## 1. Sign in
 
+**Open directly:** [Employee Taskboard](https://carnivale.frappe.cloud/taskboard#vandaag). If you are signed out, the sign-in form appears first.
+
 1. Go to [Carnivale Taskboard](https://carnivale.frappe.cloud/taskboard).
 2. If prompted, enter your email address and password under **E-mail** and **Wachtwoord**.
 3. Select **Aanmelden** (Sign in).
@@ -34,6 +36,8 @@ Your account must be linked to an Employee record and have access to the operati
 ![Employee Sign In](images/employee-sign-in.png)
 
 ## 2. Understand your daily list
+
+**Open directly:** [Vandaag, today's tasks](https://carnivale.frappe.cloud/taskboard#vandaag).
 
 Under **Vandaag**:
 
@@ -64,6 +68,8 @@ If you ticked the wrong task, untick the checkbox while the action is permitted 
 
 ## 4. Report a task as not done
 
+**Open directly:** [Today's tasks](https://carnivale.frappe.cloud/taskboard#vandaag), then open the appropriate task and choose **Niet uitgevoerd**.
+
 1. On an eligible open task, select **Niet uitgevoerd**.
 2. Select a reason in **Reden**.
 3. Enter an explanation under **Toelichting**, if useful. An explanation is required when you choose **Other**.
@@ -80,6 +86,8 @@ Common reason categories include insufficient time, missing material, delivery d
 
 ## 5. Move a task to another day
 
+**Open directly:** [Today's tasks](https://carnivale.frappe.cloud/taskboard#vandaag), then select the task's available move action.
+
 1. On an eligible open task, select **Verplaatsen** (Move).
 2. Choose **Nieuwe dag** (New day).
 3. Pick a valid working day, from tomorrow through the maximum date shown on screen.
@@ -93,6 +101,8 @@ The original task is marked as moved and linked to its new date. Only eligible c
 ![Employee Move](images/employee-move.png)
 
 ## 6. Add a task
+
+**Open directly:** [Today's tasks](https://carnivale.frappe.cloud/taskboard#vandaag), then use the add-task control.
 
 Select **+ Taak toevoegen** at the top of **Vandaag**. There are two options.
 
@@ -133,6 +143,8 @@ You can delete your own eligible open tasks while the deletion action is availab
 Do not interpret a task's presence as permission to change it. Disabled controls are intentional.
 
 ## 8. Attendance
+
+**Open directly:** [Tijdsregistratie, attendance and registrations](https://carnivale.frappe.cloud/taskboard#tijdsregistratie).
 
 Select **Tijdsregistratie** (Time registration) to scan the entrance QR and view your own check-in history. See [Attendance and QR check-in](attendance.md).
 
