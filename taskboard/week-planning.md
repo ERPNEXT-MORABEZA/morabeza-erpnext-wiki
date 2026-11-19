@@ -16,6 +16,8 @@
 
 ## Open and choose a week
 
+**Open directly:** [Weekplanning in the operations admin](https://carnivale.frappe.cloud/taskboard/admin#weekplanning). The selected week is retained in the URL when you choose one; do not bookmark an unrelated historical week.
+
 1. Sign in to the [Taskboard administration page](https://carnivale.frappe.cloud/taskboard/admin).
 2. Select **Weekplanning** in the left navigation.
 3. Use the month arrows and **Vandaag** to select a month; the week cards show each week's dates, status and task count.
@@ -71,6 +73,8 @@ Do not equate the **Te plannen** count with missed employee work. It is a planni
 > ![Flexible tasks waiting to be scheduled](images/admin-week-to-plan.png)
 
 ## Read the weekly task calendar
+
+**Open directly:** [Weekly calendar and execution summary](https://carnivale.frappe.cloud/taskboard/admin#weekplanning).
 
 The main week view shows one column per working day. Each task card includes a title, team, department color and status such as **Open**. The right-hand **Uitvoering** panel summarizes task execution and department totals.
 
