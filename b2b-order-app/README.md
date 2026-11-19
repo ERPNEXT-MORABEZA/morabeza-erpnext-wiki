@@ -17,6 +17,8 @@ English-language user documentation for the professional customer ordering porta
 
 ## Start here
 
+**Open directly:** [B2B Home](https://carnivale.frappe.cloud/b2b) · [Shop the catalog](https://carnivale.frappe.cloud/b2b/catalog) · [Pre-order products](https://carnivale.frappe.cloud/b2b/catalog?is_pre_order=1) · [Cart](https://carnivale.frappe.cloud/b2b/cart) · [Choose delivery](https://carnivale.frappe.cloud/b2b/delivery) · [Order history](https://carnivale.frappe.cloud/b2b/account/orders) · [Favorites and lists](https://carnivale.frappe.cloud/b2b/account/favorites) · [My account](https://carnivale.frappe.cloud/b2b/account) · [Staff Links](https://carnivale.frappe.cloud/b2b/links). The checkout pages require a valid customer session and cart.
+
 | Reader | Guide |
 | --- | --- |
 | **Customer / buyer** | [Customer user guide](customer-guide.md), from login to repeat ordering |
