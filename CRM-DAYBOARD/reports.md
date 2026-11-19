@@ -16,6 +16,8 @@ The sidebar provides specialized reports. They complement the Dayboard: reports 
 
 ## Pipeline Health
 
+**Open directly:** [Pipeline Health report](https://carnivale.frappe.cloud/app/query-report/Pipeline%20Health).
+
 Open **Pipeline Health**. The report groups enabled pipelines by membership state and provides filters for **Pipeline** and **Pipeline Type**.
 
 Columns in the screenshot include **Pipeline**, **Active**, **Paused**, **Suggested**, **Removed**, and **Total**. Counts represent membership records in the configured pipeline, **not** customers contacted or orders placed.
@@ -28,6 +30,8 @@ Columns in the screenshot include **Pipeline**, **Active**, **Paused**, **Sugges
 
 ## WhatsApp Draft Status
 
+**Open directly:** [WhatsApp Draft Status report](https://carnivale.frappe.cloud/app/query-report/WhatsApp%20Draft%20Status).
+
 Open **WhatsApp Draft Status** to review current draft states. Filter by **Status**, **From Date**, and **To Date**.
 
 The columns include Customer, Status, Phone, Sent By, Sent On, Evolution Status, Template and Draft. The source report shows up to **200 most recently created rows**. **Evolution Status** is a legacy field and does not mean automated WhatsApp sending is active.
@@ -39,6 +43,8 @@ The columns include Customer, Status, Phone, Sent By, Sent On, Evolution Status,
 A WhatsApp message copied to the clipboard is still Draft until the employee sends it manually and selects **Mark Sent**. See the [WhatsApp Workflow](whatsapp-workflow.md).
 
 ## Contact Outcomes Report
+
+**Open directly:** [Contact Outcomes Report](https://carnivale.frappe.cloud/app/query-report/Contact%20Outcomes%20Report).
 
 Open **Contact Outcomes Report**. Filter by **Outcome** and the date range, then review:
 
@@ -57,6 +63,8 @@ Open **Contact Outcomes Report**. Filter by **Outcome** and the date range, then
 Likewise, **Besteld** or **Done - Ordered** represents a commercial response, not verified ERPNext order revenue or conversion.
 
 ## Other queues and reports
+
+**Open directly:** [Overdue Followups](https://carnivale.frappe.cloud/app/query-report/Overdue%20Followups) · [Needs Review Queue](https://carnivale.frappe.cloud/app/query-report/Needs%20Review%20Queue) · [Data Quality Queue](https://carnivale.frappe.cloud/app/query-report/Data%20Quality%20Queue) · [Duplicate Override Audit](https://carnivale.frappe.cloud/app/query-report/Duplicate%20Override%20Audit) · [Contact Moments Log](https://carnivale.frappe.cloud/app/query-report/Contact%20Moments%20Log) · [Dayboard Queue](https://carnivale.frappe.cloud/app/query-report/Dayboard%20Queue) · [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review).
 
 | Report or page | Purpose |
 | --- | --- |
