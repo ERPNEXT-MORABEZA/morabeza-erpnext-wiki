@@ -27,6 +27,8 @@ The backend checks both the selected contact and current permission when creatin
 
 ## Create a draft from the Dayboard
 
+**Open directly:** [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard), then select **WhatsApp Draft** for an eligible customer.
+
 1. Select **WhatsApp Draft** on an eligible Dayboard Item.
 2. The system selects an active template and fills a draft message with permitted customer/contact context.
 3. Review the whole text, the phone snapshot, and the recipient.
@@ -36,6 +38,8 @@ The backend checks both the selected contact and current permission when creatin
 Do not assume that opening a WhatsApp window or copying the text constitutes delivery.
 
 ## Work through WhatsApp Draft Review
+
+**Open directly:** [WhatsApp Draft Review](https://carnivale.frappe.cloud/app/whatsapp-draft-review).
 
 Open **Commercial Control Tower → WhatsApp Draft Review**. The screen provides filters for **Owner**, **Pipeline**, **Day**, and **Session Size** (the example shows 20). **Refresh** reloads the pending drafts.
 
@@ -77,6 +81,8 @@ For delivery reminder pipelines, repeat WhatsApp contact in the same calendar we
 **Important:** The implemented `skip_draft` records the reason but leaves the WhatsApp record in **Draft** and **does not change the Dayboard Item's status**. The item may remain visible in the pending queue. To actually resolve the work, use a separate authorized outcome, snooze or manager review. Skip is not a substitute for contact logging.
 
 ## Audit a draft after contact
+
+**Open directly:** [WhatsApp Draft Status report](https://carnivale.frappe.cloud/app/query-report/WhatsApp%20Draft%20Status). A copied draft remains Draft until manually sent and marked accordingly.
 
 Use **WhatsApp Draft Status** to filter the record list by status and dates. Review **Sent By** and **Sent On** where applicable. If it remains **Draft**, the CRM does not consider it sent regardless of what may have happened in a separate WhatsApp client.
 
