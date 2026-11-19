@@ -4,6 +4,16 @@ English-language help and operating instructions for the ERPNext apps developed 
 
 > **Documentation status:** These guides describe functionality found in the source repositories as of **19 November 2026**. A feature in code is not automatically enabled in production. Screen labels in the application may still be in Dutch. Screenshots and deployment-specific checks are being added.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Choose your application](#choose-your-application)
+- [Quick links](#quick-links)
+- [How to use these guides](#how-to-use-these-guides)
+- [Documentation conventions](#documentation-conventions)
+- [Source and maintenance](#source-and-maintenance)
+
 ## Choose your application
 
 | Application | Who should read it | Guides |
