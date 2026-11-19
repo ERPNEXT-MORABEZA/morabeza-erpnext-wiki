@@ -2,6 +2,15 @@
 
 Each guide now contains **inline Markdown image references** at the exact position where its screenshots belong. The images are not yet uploaded, so GitHub may show a missing-image icon until an approved file is added. Uploading the PNG to the listed path makes it appear automatically, without editing the guide. Do not commit active QR codes, passwords, customer details, real payroll data, live employee information, access tokens or real vehicle registration information.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [How to capture and submit](#how-to-capture-and-submit)
+- [Taskboard screenshots](#taskboard-screenshots)
+- [Driver App screenshots](#driver-app-screenshots)
+- [Do not capture](#do-not-capture)
+
 ## How to capture and submit
 
 1. Use a test or demonstration account with fictitious employee names, dates and tasks.
