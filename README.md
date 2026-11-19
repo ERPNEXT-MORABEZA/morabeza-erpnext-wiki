@@ -34,7 +34,7 @@ English-language help and operating instructions for the ERPNext apps developed 
 - **Verified in source**: the underlying feature and/or screen was found in the code on the stated branch.
 - **Needs live verification**: the behavior has source support but was not confirmed by a hands-on production session.
 - **Not yet available**: a planned feature or a screen not found in the current frontend source.
-- **[Screenshot needed]**: an image to add later. Each placeholder specifies the required screen, filename and what to show.
+- **Screenshot to add**: a short description followed by an inline Markdown image reference in the appropriate guide. Upload the image to the specified path and it will appear there automatically. Until uploaded, GitHub may show a missing-image preview.
 - Examples should use fictitious employees, customers, routes and tasks. Never upload private employee data, credentials, personal telephone numbers or access tokens.
 
 ## Source and maintenance
