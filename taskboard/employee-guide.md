@@ -3,6 +3,22 @@
 **Audience:** Operational employees.  
 **Status:** Source-verified guide, pending live screenshot and production acceptance review.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [1. Sign in](#1-sign-in)
+- [2. Understand your daily list](#2-understand-your-daily-list)
+- [3. Mark a task as completed](#3-mark-a-task-as-completed)
+- [4. Report a task as not done](#4-report-a-task-as-not-done)
+- [5. Move a task to another day](#5-move-a-task-to-another-day)
+- [6. Add a task](#6-add-a-task)
+  - [Option A: Choose from the task library](#option-a-choose-from-the-task-library)
+  - [Option B: Create your own task](#option-b-create-your-own-task)
+- [7. Read task details correctly](#7-read-task-details-correctly)
+- [8. Attendance](#8-attendance)
+- [Quick troubleshooting](#quick-troubleshooting)
+
 ## 1. Sign in
 
 1. Go to [Carnivale Taskboard](https://carnivale.frappe.cloud/taskboard).
