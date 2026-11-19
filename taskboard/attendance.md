@@ -13,6 +13,8 @@ Select a section to jump directly to it.
 
 ## Employee: clock in or out
 
+**Open directly:** [Tijdsregistratie, QR check-in and registrations](https://carnivale.frappe.cloud/taskboard#tijdsregistratie). The registration and history tabs are inside this screen.
+
 1. Open [Taskboard](https://carnivale.frappe.cloud/taskboard) and sign in.
 2. Open **Tijdsregistratie** (Time Registration).
 3. At the workplace entrance, select **QR-code scannen met camera**.
@@ -34,6 +36,8 @@ Select a section to jump directly to it.
 ![Attendance Scan Result](images/attendance-scan-result.png)
 
 ## Administrator: display or print the location QR
+
+**Open directly:** [Attendance settings and location QR](https://carnivale.frappe.cloud/taskboard#tijdsregistratie). This panel is permission-controlled; never share the live QR in a public document.
 
 The employee page contains an additional admin-only QR card.
 
