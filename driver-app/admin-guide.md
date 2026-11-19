@@ -3,6 +3,22 @@
 **Audience:** Operational Admin, planner and HR/Payroll where explicitly permitted.  
 **Status:** Backend and technical specification reviewed; the dedicated management frontend and actual enabled modules are **not verified on the B2B main branch**. Treat all click paths in the technical specification as provisional.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [1. What an administrator manages](#1-what-an-administrator-manages)
+- [2. Enabling the app safely](#2-enabling-the-app-safely)
+- [3. Create or complete driver profiles](#3-create-or-complete-driver-profiles)
+- [4. Prepare the monthly driver plan](#4-prepare-the-monthly-driver-plan)
+- [5. Handle leave, availability and replacements](#5-handle-leave-availability-and-replacements)
+- [6. Work hours and payroll](#6-work-hours-and-payroll)
+- [7. Manage vehicles](#7-manage-vehicles)
+- [8. Manage driver dossiers](#8-manage-driver-dossiers)
+- [9. Incident, privacy and emergency operations](#9-incident-privacy-and-emergency-operations)
+- [10. Known limits and deferred functionality](#10-known-limits-and-deferred-functionality)
+- [Release gate before publishing end-user instructions](#release-gate-before-publishing-end-user-instructions)
+
 ## 1. What an administrator manages
 
 The backend has separate functions for driver profiles, availability, month plans, replacements, hours, vehicles, damages, fines, manuals, incident handling and exports. Rights are enforced server-side.
