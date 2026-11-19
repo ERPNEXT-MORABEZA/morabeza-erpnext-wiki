@@ -40,7 +40,11 @@
 
 ## 2. Onboard a new B2B customer
 
+**Open in ERPNext Desk:** [Customer records](https://carnivale.frappe.cloud/app/customer) · [User accounts](https://carnivale.frappe.cloud/app/user). Requires the appropriate administrator role.
+
 ### Create or verify the Customer
+
+**Open directly:** [Customer list in Desk](https://carnivale.frappe.cloud/app/customer).
 
 1. In ERPNext Desk, open **Customer** using the Desk search.
 2. Verify the correct customer name, Customer Group, territory, invoicing and contact information according to Carnivale procedures.
@@ -52,11 +56,15 @@ A login that exists but is not linked to any Customer is sent to **Account not l
 
 ### Set up delivery weekdays
 
+**Open directly:** [Customer delivery-day settings](https://carnivale.frappe.cloud/app/customer), then open the intended test Customer record.
+
 ERPNext Customer has a **delivery_days** child table of **Commercial Delivery Day** entries. Review each weekday and, when available, its delivery type and order cutoff time. The global fallback is deliberately permissive while some rules are off, but that fallback should not be treated as a final delivery agreement.
 
 When B2B delivery-rule enforcement is enabled, a territory **B2B Delivery Rule** may supply default weekdays, cutoff time and exceptions if customer-specific rows do not override them.
 
 ## 3. Maintain the product catalog in ERPNext Desk
+
+**Open in ERPNext Desk:** [Items](https://carnivale.frappe.cloud/app/item) · [Item Prices](https://carnivale.frappe.cloud/app/item-price). These are administrator views, not customer portal pages.
 
 ### Product visibility and categorization
 
@@ -70,6 +78,8 @@ When B2B delivery-rule enforcement is enabled, a territory **B2B Delivery Rule**
 The **Carnivale Products** root is protected against renaming or deletion because the public catalog depends on it. Do not bypass this guard.
 
 ### Maintain product prices
+
+**Open directly:** [Item Price records](https://carnivale.frappe.cloud/app/item-price).
 
 1. In Desk, open **Item Price** for the Item.
 2. Use **B2B EUR** for the normal B2B catalog price. Check currency, unit, effective dates and selling flag.
@@ -86,6 +96,8 @@ Some Items have additional B2B flags or lead time fields. Confirm each Pre-order
 **New products** depend on `Item.custom_intro_date` and a configurable window in B2B Settings. A blank intro date does not automatically become today when a product is published. Check the field rather than assuming every newly visible Item appears in the **New products** filter.
 
 ## 4. Configure delivery rules and ordering behavior
+
+**Open in ERPNext Desk:** [B2B Settings](https://carnivale.frappe.cloud/app/b2b-settings) · [B2B Delivery Rules](https://carnivale.frappe.cloud/app/b2b-delivery-rule). Settings changes require approval.
 
 ### B2B Settings
 
@@ -122,6 +134,8 @@ Test a configured customer with regular stock items, a Pre-order item, a blocked
 
 ## 5. Process portal orders in ERPNext Sales Orders
 
+**Open directly:** [Sales Orders in ERPNext Desk](https://carnivale.frappe.cloud/app/sales-order), for authorized sales staff.
+
 Orders placed online create **ERPNext Sales Order** documents with `order_type = Shopping Cart`, linked to the logged-in Customer.
 
 1. Open **Sales Order** in ERPNext Desk under the appropriate sales role.
@@ -145,6 +159,8 @@ In some configurations, a single checkout can produce **multiple Sales Orders** 
 Checkout includes retry/double-click protection. If a customer reports duplicate submissions, verify the Sales Orders and request records first; do not assume two button clicks created two distinct orders.
 
 ## 6. Manage shareable product lists and Links
+
+**Open directly:** [B2B Links, staff portal](https://carnivale.frappe.cloud/b2b/links).
 
 The **Links** page at `/b2b/links` is a **staff-only interface**, not the customer's Favorites feature.
 
