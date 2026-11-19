@@ -6,6 +6,15 @@ The Driver App is designed to connect driver planning and administration with th
 
 > **Important availability notice (19 November 2026):** The operations backend includes substantial Driver App functionality and automated tests. However, dedicated Driver App screens described in the technical specification were **not found in the current `carnivale-b2b` main branch**. Furthermore, the backend has feature switches that default to off. These documents explain intended and source-backed behavior, **not a confirmed live user interface**. Do not distribute these as finalized phone instructions until the screens, switches and permissions have been checked in staging or production.
 
+## On this page
+
+Select a section to jump directly to it.
+
+- [Choose a guide](#choose-a-guide)
+- [Feature areas represented in the backend](#feature-areas-represented-in-the-backend)
+- [What is not a promised live feature?](#what-is-not-a-promised-live-feature)
+- [Before the guide is released to drivers](#before-the-guide-is-released-to-drivers)
+
 ## Choose a guide
 
 | Audience | Guide |
