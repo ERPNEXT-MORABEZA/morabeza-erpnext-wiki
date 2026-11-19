@@ -21,6 +21,32 @@ Select a section to jump directly to it.
 6. Upload the approved PNG to the **exact filename and folder** below, for example `taskboard/images/employee-today.png`. Each guide already includes an inline image tag such as `![Employee Today](images/employee-today.png)`. **No Markdown change is needed** to display it.
 7. Record the deployed app version and capture date in the documentation update.
 
+## Captures supplied on 19 November 2026
+
+**17 real screenshots were reviewed and mapped to the guides.** A sanitized image bundle has been prepared with staff names/IDs/email addresses and the live attendance QR masked. **The PNG assets have not yet been uploaded to the GitHub repository**, so the inline image references will show as missing until the package is committed. This distinction is intentional: a Markdown reference is not an uploaded image.
+
+| Image path expected in the wiki | What it shows | Asset status |
+| --- | --- | --- |
+| `taskboard/images/admin-week-not-generated.png` | Ungenerated weekly plan and Generate action | Sanitized, upload pending |
+| `taskboard/images/admin-week-to-plan.png` | Draft week, flexible task day selector, Schedule/Skip | Sanitized, upload pending |
+| `taskboard/images/admin-week-calendar.png` | Week calendar and execution summary | Sanitized, upload pending |
+| `taskboard/images/admin-week-calendar-detail.png` | Additional daily tasks and department color legend | Sanitized, upload pending |
+| `taskboard/images/attendance-admin-qr-redacted.png` | Admin attendance card with QR code obscured | Sanitized, upload pending |
+| `taskboard/images/attendance-registrations.png` | My registrations tab, empty sample history | Sanitized, upload pending |
+| `taskboard/images/admin-library.png` | Task library search and filters | Sanitized, upload pending |
+| `taskboard/images/admin-template-editor.png` | Task editor, primary fields | Sanitized, upload pending |
+| `taskboard/images/admin-template-fields.png` | Task editor, advanced flags | Sanitized, upload pending |
+| `taskboard/images/admin-holidays.png` | Holiday calendar and sync action | Sanitized, upload pending |
+| `taskboard/images/admin-calendar-day-form.png` | Manual calendar-day form | Sanitized, upload pending |
+| `taskboard/images/admin-report-summary.png` | Report overview and open-task follow-up | Sanitized, upload pending |
+| `driver-app/images/admin-drivers-overview.png` | Driver readiness and availability, identities obscured | Sanitized, upload pending |
+| `driver-app/images/admin-route-knowledge.png` | Route familiarity matrix, identities obscured | Sanitized, upload pending |
+| `driver-app/images/admin-login-review.png` | Driver login status, personal fields obscured | Sanitized, upload pending |
+| `driver-app/images/admin-settings.png` | Feature switches, retention, incidents, export | Sanitized, upload pending |
+| `driver-app/images/admin-month-plan.png` | Driver month planning, shadow plan and route patterns | Sanitized, upload pending |
+
+The screenshot package is organized so that extracting its `taskboard/images` and `driver-app/images` folders at the repository root places every file in its expected location. Every image requires a final public-information review before publication.
+
 ## Taskboard screenshots
 
 | File path | Screen to capture | Include |
