@@ -11,7 +11,10 @@ An administrator must first ensure that an Employee record and Driver Profile ex
 
 The profile creation process does **not** automatically create a login. If you cannot sign in, contact the administrator. Do not use a colleague's credentials.
 
-> **[Screenshot needed: `driver-app/images/driver-home.png`]** Show the actual signed-in driver dashboard on a phone, with a test account and no real personal information.
+> **Screenshot to add:** Show the actual signed-in driver dashboard on a phone, with a test account and no real personal information.
+> **File to upload:** `driver-app/images/driver-home.png`
+
+![Driver Home](images/driver-home.png)
 
 ## 2. Check your published plan
 
@@ -26,7 +29,10 @@ The backend supports a driver-specific view of **published**, non-cancelled assi
 
 A planning draft or shadow plan must not be treated as published work.
 
-> **[Screenshot needed: `driver-app/images/driver-published-plan.png`]** Show one published assigned day and its date, route, start and estimated duration.
+> **Screenshot to add:** Show one published assigned day and its date, route, start and estimated duration.
+> **File to upload:** `driver-app/images/driver-published-plan.png`
+
+![Driver Published Plan](images/driver-published-plan.png)
 
 ## 3. Report availability or request leave
 
@@ -34,7 +40,10 @@ The backend supports requests to change availability and to request leave, with 
 
 When the UI is validated, add the exact steps to submit a request and view its status.
 
-> **[Screenshot needed: `driver-app/images/driver-availability.png`]** Show an availability or leave request and its review status.
+> **Screenshot to add:** Show an availability or leave request and its review status.
+> **File to upload:** `driver-app/images/driver-availability.png`
+
+![Driver Availability](images/driver-availability.png)
 
 ## 4. Respond to a replacement request
 
@@ -44,7 +53,10 @@ The backend ensures that only the first valid acceptance wins when multiple driv
 
 **Privacy:** A replacement recipient should not see the identity or private reason of the colleague being replaced.
 
-> **[Screenshot needed: `driver-app/images/driver-replacement.png`]** Show a fictional replacement offer and final response status.
+> **Screenshot to add:** Show a fictional replacement offer and final response status.
+> **File to upload:** `driver-app/images/driver-replacement.png`
+
+![Driver Replacement](images/driver-replacement.png)
 
 ## 5. Register your workday
 
@@ -56,7 +68,10 @@ When workday tracking is enabled, the backend supports start and end registratio
 
 Offline write-back is **off by default** and must be explicitly enabled. Do not assume a registration saved on a disconnected phone has reached the server.
 
-> **[Screenshot needed: `driver-app/images/driver-workday.png`]** Show fictional start/end records and a correction option on the real phone UI.
+> **Screenshot to add:** Show fictional start/end records and a correction option on the real phone UI.
+> **File to upload:** `driver-app/images/driver-workday.png`
+
+![Driver Workday](images/driver-workday.png)
 
 ## 6. Check the vehicle and record the odometer
 
@@ -64,7 +79,10 @@ The fleet module supports assignment to a vehicle, departure odometer readings w
 
 When enabled and shown in the mobile app, follow the on-screen departure check. Ensure the odometer photo is readable. Do not assume OCR automatically fills the reading: the default OCR provider is **none**, and typed values remain important.
 
-> **[Screenshot needed: `driver-app/images/driver-odometer.png`]** Show a test vehicle, numeric odometer field and a photo attachment, with number plates masked.
+> **Screenshot to add:** Show a test vehicle, numeric odometer field and a photo attachment, with number plates masked.
+> **File to upload:** `driver-app/images/driver-odometer.png`
+
+![Driver Odometer](images/driver-odometer.png)
 
 ## 7. Report damage or an incident
 
@@ -72,7 +90,10 @@ The backend allows drivers to submit damage reports with photos. The driver may 
 
 Record factual details promptly and attach clear evidence through the approved system when enabled. If the function is unavailable during a critical incident stop, follow the administrator's alternative procedure.
 
-> **[Screenshot needed: `driver-app/images/driver-damage.png`]** Show a fictitious damage report form and attached non-identifying photo.
+> **Screenshot to add:** Show a fictitious damage report form and attached non-identifying photo.
+> **File to upload:** `driver-app/images/driver-damage.png`
+
+![Driver Damage](images/driver-damage.png)
 
 ## 8. View your dossier and required reading
 
@@ -80,7 +101,10 @@ The backend provides driver access to relevant confirmed fines, the driver's own
 
 When the interface is released, confirm how to open each of these items and how a required **read confirmation** is submitted.
 
-> **[Screenshot needed: `driver-app/images/driver-manual.png`]** Show an example logistics manual version and an acknowledgment state.
+> **Screenshot to add:** Show an example logistics manual version and an acknowledgment state.
+> **File to upload:** `driver-app/images/driver-manual.png`
+
+![Driver Manual](images/driver-manual.png)
 
 ## 9. Notifications
 
