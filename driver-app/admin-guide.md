@@ -23,6 +23,8 @@ For screen-grounded instructions, use [All admin tabs](admin-navigation.md), [Dr
 
 ## 1. What an administrator manages
 
+**Open directly:** [Chauffeurs administration](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan). Choose an administration tab below; tabs still appear when some features are disabled.
+
 The deployed admin screenshots show the actual **Chauffeurs** tab navigation. The backend has separate functions for driver profiles, availability, month plans, replacements, hours, vehicles, damages, fines, manuals, incident handling and exports. Rights are enforced server-side.
 
 **Roles**
@@ -32,6 +34,8 @@ The deployed admin screenshots show the actual **Chauffeurs** tab navigation. Th
 - **Operational HR Payroll:** restricted profile view and export access only when the relevant switch permits it.
 
 ## 2. Enabling the app safely
+
+**Open directly:** [Instellingen, driver settings](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings) and [Go-live readiness](https://carnivale.frappe.cloud/taskboard/admin#drivers/golive). Do not change feature switches merely for documentation.
 
 The documented **Geofood Driver Settings** include separate feature switches:
 
@@ -48,6 +52,8 @@ The documented **Geofood Driver Settings** include separate feature switches:
 **Do not enable everything together.** The supplied settings capture shows **Uren**, **Voertuigen**, **Dossiers** and **Pushmeldingen** switched off, while offline read-only copy is on. This is a dated snapshot, not a current configuration guarantee. The production rollout requires a backup, compatible frontend/backend deployment, privacy settings and staged acceptance. No settings or switches are changed by this documentation.
 
 ## 3. Create or complete driver profiles
+
+**Open directly:** [Chauffeurs en logins](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers).
 
 The deployed driver list shows **Chauffeur toevoegen**, **Bewerken**, **Archiveren**, availability and readiness. The backend specification additionally describes a new-Employee-and-driver creation flow, which needs a detailed screenshot.
 
@@ -74,6 +80,8 @@ After profile creation:
 
 ## 4. Prepare the monthly driver plan
 
+**Open directly:** [Driver Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan).
+
 The month planner supports:
 
 - Fixed and flexible driver work patterns.
@@ -98,6 +106,8 @@ Recommended process:
 
 ## 5. Handle leave, availability and replacements
 
+**Open directly:** [Aanvragen](https://carnivale.frappe.cloud/taskboard/admin#drivers/requests) · [Vervangingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/replacements).
+
 Availability changes and leave requests require a management decision. A replacement request triggered by an approved absence may be handled automatically under an enabled policy, but the administrator remains responsible for confirming the final plan.
 
 Replacement calls can be offered to eligible drivers. The documented job handles first valid acceptance, reminders and escalation when no one accepts. Check the final assignment and notification status instead of relying on a phone call alone.
@@ -113,6 +123,8 @@ Replacement calls can be offered to eligible drivers. The documented job handles
 ![Admin Replacements](images/admin-replacements.png)
 
 ## 6. Work hours and payroll
+
+**Open directly if enabled:** [Uren](https://carnivale.frappe.cloud/taskboard/admin#drivers/hours).
 
 When workday tracking is enabled, the backend records working days for both fixed and flexi drivers, allows correction and dispute handling, and supports month close and versioned payroll exports.
 
@@ -136,6 +148,8 @@ The application does not replace the employer's payroll validation responsibilit
 
 ## 7. Manage vehicles
 
+**Open directly if enabled:** [Voertuigen](https://carnivale.frappe.cloud/taskboard/admin#drivers/vehicles).
+
 The backend supports vehicle setup, assignment, service and maintenance checks, odometer history, departure evidence and damage baselines.
 
 Before making a vehicle available, confirm its approved baseline and service data. A vehicle lacking the required baseline must not be allocated by the normal flow. Resolve unavailability and maintenance warnings before publication or dispatch.
@@ -147,6 +161,8 @@ Before making a vehicle available, confirm its approved baseline and service dat
 
 ## 8. Manage driver dossiers
 
+**Open directly if enabled:** [Dossiers](https://carnivale.frappe.cloud/taskboard/admin#drivers/dossiers).
+
 Administrators can review damage reports, fines and disputes, publish versions of the logistics manual, require read confirmations, and manage route information sheets. Drivers see only their authorized subsets.
 
 Do not disclose a tentative fine or internal responsibility assessment to drivers before the workflow permits it. Do not upload sensitive dossier records to this public documentation repository.
@@ -157,6 +173,8 @@ Do not disclose a tentative fine or internal responsibility assessment to driver
 ![Admin Dossiers](images/admin-dossiers.png)
 
 ## 9. Incident, privacy and emergency operations
+
+**Open directly:** [Meldingen en audit](https://carnivale.frappe.cloud/taskboard/admin#drivers/audit) · [Instellingen](https://carnivale.frappe.cloud/taskboard/admin#drivers/settings) · [Go-live](https://carnivale.frappe.cloud/taskboard/admin#drivers/golive).
 
 The backend includes:
 
