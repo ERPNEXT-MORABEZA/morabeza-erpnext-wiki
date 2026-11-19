@@ -8,7 +8,7 @@ The customer and administrator guides contain **inline Markdown image references
 
 - [Captures already supplied](#captures-already-supplied)
 - [Capture still needed for the ERPNext administrator guide](#capture-still-needed-for-the-erpnext-administrator-guide)
-- [Image upload rules](#image-upload-rules)
+- [Image upload rules](#image-review-and-future-uploads)
 
 ## Captures already supplied
 
