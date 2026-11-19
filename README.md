@@ -9,6 +9,7 @@ English-language help and operating instructions for the ERPNext apps developed 
 Select a section to jump directly to it.
 
 - [Choose your application](#choose-your-application)
+- [Open the applications directly](#open-the-applications-directly)
 - [Quick links](#quick-links)
   - [Taskboard](#taskboard)
   - [Driver App](#driver-app)
@@ -27,6 +28,19 @@ Select a section to jump directly to it.
 | **Driver App** | Drivers, dispatch / operations administrators, HR | [Driver App guides](driver-app/README.md) |
 | **B2B Order App** | Professional customers, sales and catalog administrators | [B2B ordering guides](b2b-order-app/README.md) |
 | **CRM Dayboard / Commercial Control Tower** | Commercial sales staff, managers and ERPNext administrators | [CRM Dayboard guides](CRM-DAYBOARD/README.md) |
+
+## Open the applications directly
+
+These links open the Carnivale instance at **https://carnivale.frappe.cloud**. Sign in first; the available screens depend on your role and enabled features.
+
+| Application | Direct links |
+| --- | --- |
+| **Taskboard** | [Employee Today](https://carnivale.frappe.cloud/taskboard#vandaag) · [Attendance](https://carnivale.frappe.cloud/taskboard#tijdsregistratie) · [Weekplanning](https://carnivale.frappe.cloud/taskboard/admin#weekplanning) · [Task library](https://carnivale.frappe.cloud/taskboard/admin#templates) |
+| **Driver App** | [Chauffeurs planning](https://carnivale.frappe.cloud/taskboard/admin#drivers/plan) · [Driver profiles](https://carnivale.frappe.cloud/taskboard/admin#drivers/drivers) · [Go-live](https://carnivale.frappe.cloud/taskboard/admin#drivers/golive) |
+| **B2B Order App** | [Shop](https://carnivale.frappe.cloud/b2b/catalog) · [Cart](https://carnivale.frappe.cloud/b2b/cart) · [Order history](https://carnivale.frappe.cloud/b2b/account/orders) · [Favorites](https://carnivale.frappe.cloud/b2b/account/favorites) |
+| **CRM Dayboard** | [Today's Dayboard](https://carnivale.frappe.cloud/app/dayboard) · [WhatsApp Draft Review](https://carnivale.frappe.cloud/app/whatsapp-draft-review) · [Manager Daily Review](https://carnivale.frappe.cloud/app/manager-review) · [Commercial Config](https://carnivale.frappe.cloud/app/commercial-config) |
+
+**Route verification:** The links are derived from the application repository's defined web routes, URL hashes and ERPNext Desk page/report names. An authenticated live-browser walkthrough is still required to confirm permissions and that all release-branch features are deployed.
 
 ## Quick links
 
@@ -66,6 +80,7 @@ Select a section to jump directly to it.
 
 ### Shared resources
 
+- [AI screenshot capture manifest](SCREENSHOT_CAPTURE_MANIFEST.md)
 - [Screenshot capture checklist](SCREENSHOTS.md)
 
 ## How to use these guides
@@ -88,7 +103,7 @@ Select a section to jump directly to it.
 
 These are **user manuals**, not technical installation instructions.
 
-Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The reviewed B2B frontend contains the Taskboard employee and admin pages; the Driver App admin interface is **also visible in screenshots from the deployed site**, though its source is not present in that checked branch. Driver phone steps and disabled feature areas are still marked for verification. Seventeen supplied screenshots have now been uploaded to the matching `taskboard/images/` and `driver-app/images/` directories. Nine sanitized Commercial Control Tower screenshots have also been uploaded to `CRM-DAYBOARD/images/` and placed inline in its guides. Other inline image slots intentionally remain pending until their screenshots are captured.
+Taskboard functionality is drawn from the `carnivale_operations` backend and the `carnivale_b2b` Taskboard frontend. Driver App information additionally comes from the Drivers App technical documentation and backend modules. The reviewed B2B frontend contains the Taskboard employee and admin pages; the Driver App admin interface is **also visible in screenshots from the deployed site**, and the reviewed `b2b-v5-release-2` source branch contains its Chauffeurs routes and driver page. Deployment and feature switches still require verification. Driver phone steps and disabled feature areas remain marked for verification. Seventeen supplied screenshots have now been uploaded to the matching `taskboard/images/` and `driver-app/images/` directories. Nine sanitized Commercial Control Tower screenshots have also been uploaded to `CRM-DAYBOARD/images/` and placed inline in its guides. Other inline image slots intentionally remain pending until their screenshots are captured.
 
 Documentation owner: Morabeza. Please review the guides after each relevant application release, especially when screen labels, permissions or feature switches change.
 
