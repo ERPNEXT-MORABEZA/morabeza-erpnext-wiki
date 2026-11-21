@@ -64,6 +64,10 @@ When the UI is validated, add the exact steps to submit a request and view its s
 
 ![Driver Availability](images/driver-availability.png)
 
+![Driver availability change request form](images/driver-availability-change.png)
+
+![Driver leave request form](images/driver-leave.png)
+
 ## 4. Respond to a replacement request
 
 If you receive a replacement call for an eligible day, the intended workflow allows you to see the offered date, route, start and expected duration, then accept or decline.
