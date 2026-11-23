@@ -7,9 +7,9 @@ Status key: DONE, PARTIAL (real screen, but empty state or partial content), BLO
 | ID | Target file | Status | Note |
 | --- | --- | --- | --- |
 | B2B-01 | `b2b-order-app/images/admin-customer-portal-users.png` | DONE | From the `B2B-01alt` capture. The file named `B2B-01.png` shows B2B Settings, not the customer, so it was not used |
-| B2B-02 | `b2b-order-app/images/admin-customer-delivery-days.png` | BLOCKED | The file named `B2B-02.png` shows the empty B2B Delivery Rule list, not the Customer delivery_days table |
-| B2B-03 | `b2b-order-app/images/admin-item-catalog.png` | BLOCKED | The file named `B2B-03.png` shows the B2B Order Request list, not an Item |
-| B2B-04 | `b2b-order-app/images/admin-item-price-b2b.png` | BLOCKED | The file named `B2B-04.png` shows the B2B Cart list, not an Item Price |
+| B2B-02 | `b2b-order-app/images/admin-customer-delivery-days.png` | BLOCKED | Needs a customer with delivery_days rows. The file named `B2B-02.png` shows the empty B2B Delivery Rule list and is not used |
+| B2B-03 | `b2b-order-app/images/admin-item-catalog.png` | DONE | Item "Acetyco - 250 ml" (ACETY25S), Details tab. Replaces the earlier `B2B-03.png` (an Order Request list), which was never published |
+| B2B-04 | `b2b-order-app/images/admin-item-price-b2b.png` | DONE | Item Price form, price list B2B EUR; the Rate value is masked. Replaces the earlier `B2B-04.png` (a Cart list), which was never published |
 | B2B-05 | `b2b-order-app/images/admin-b2b-settings.png` | DONE | From the `_clean` capture (no "Not Saved" badge) |
 | B2B-06 | `b2b-order-app/images/admin-delivery-rule.png` | BLOCKED | No B2B Delivery Rule records exist |
 | B2B-07 | `b2b-order-app/images/admin-sales-order-review.png` | DONE | Draft Sales Order of the test customer, order type Shopping Cart |
@@ -33,17 +33,18 @@ Status key: DONE, PARTIAL (real screen, but empty state or partial content), BLO
 | CRM-17 | `CRM-DAYBOARD/images/dayboard-item-detail.png` | HOLD | Not captured |
 | CRM-18 | `CRM-DAYBOARD/images/duplicate-followup-warning.png` | HOLD | Not captured |
 | TB-09 | `taskboard/images/admin-report-filters.png` | DONE | |
-| DR-09 | `driver-app/images/admin-add-driver.png` | HOLD | No capture of the add-driver form. The supplied drivers list shows only the "Chauffeur toevoegen" button and real names, so it was not used |
+| DR-09 | `driver-app/images/admin-add-driver.png` | DONE | The "Chauffeur toevoegen" panel; the employee names in the list are masked, the button, headings and explanatory text are visible |
 | DR-11 | `driver-app/images/admin-replacements.png` | PARTIAL | Empty state ("Geen open oproepen") |
 | DR-16 | `driver-app/images/admin-readiness.png` | DONE | The "Wie" column (people) masked |
 
 ## Masked in every Desk or Taskboard capture
 
-The logged-in user block (name and e-mail, or avatar) in the sidebar and top bar. Also masked where visible: real customer names (CRM-01, CRM-04, CRM-07, CRM-10), the portal user e-mail and Customer Owner (B2B-01, CRM-12), Rate and Amount values and exchange rates (B2B-07), the people named in the "Wie" column (DR-16). The test customer "Silvano Test" is not masked.
+The logged-in user block (name and e-mail, or avatar) in the sidebar and top bar. Also masked where visible: real customer names (CRM-01, CRM-04, CRM-07, CRM-10), the portal user e-mail and Customer Owner (B2B-01, CRM-12), Rate and Amount values and exchange rates (B2B-07), the people named in the "Wie" column (DR-16), the employee names in the add-driver panel (DR-09), the Rate value (B2B-04). The test customer "Silvano Test" is not masked.
 
 ## Not used
 
 - `B2B-01.png`, `B2B-02.png`, `B2B-03.png`, `B2B-04.png`: show other screens (see the table).
+- `B2B-04a_item-price-list_ACETY25S.jpg`: optional alternative, the manifest has no matching row.
 - `B2B-05-b2b-settings.jpg`: shows a "Not Saved" badge (the `_clean` one was used).
 - `B2B-07.png`: Sales Order list with customer names and totals (the draft form was used).
 - `CRM-07a_generate-dialog_mode-Create-Missing-NOT-RUN.jpg`: default mode screenshot, not to be published.
@@ -51,5 +52,5 @@ The logged-in user block (name and e-mail, or avatar) in the sidebar and top bar
 - `CRM-12alt_customer-contact_silvano-test.jpg`: alternative, not needed.
 - `CRM-dayboard_REAL-DATA.jpg`: not to be published.
 - `DR-weekplan-admin.jpg`: no matching manifest row (an existing `admin-month-plan.png` covers monthly planning).
-- `DR-drivers-list-REAL-NAMES.jpg`: real names; does not match DR-09 (form).
+- `DR-drivers-list-REAL-NAMES.jpg`: real names; the roster list, not the add-driver panel (DR-09 uses `DR-09-add-driver-REAL-NAMES`).
 - `TB-holidays-admin.jpg`: not in the manifest.
